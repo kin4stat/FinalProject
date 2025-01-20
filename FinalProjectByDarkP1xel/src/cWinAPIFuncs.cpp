@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\cWinAPIFuncs.hpp"
+#include "cWinAPIFuncs.hpp"
 
 cWinAPIFuncs::cWinAPIFuncs(const class cMain *pMain) {
 

@@ -32,16 +32,16 @@
 #include "Vector/cCompressedVector2D.hpp"
 #include "Vector/cCompressedVector3D.hpp"
 
-#include "include\cLog.hpp"
-#include "include\cWinAPIFuncs.hpp"
-#include "include\cHook.hpp"
-#include "include\cDirectX.hpp"
-#include "include\cInternet.hpp"
-#include "include\cGui.hpp"
-#include "include\cSA.hpp"
-#include "include\cSAPatch.hpp"
-#include "include\cMP.hpp"
-#include "include\cMPPatch.hpp"
+#include "cLog.hpp"
+#include "cWinAPIFuncs.hpp"
+#include "cHook.hpp"
+#include "cDirectX.hpp"
+#include "cInternet.hpp"
+#include "cGui.hpp"
+#include "cSA.hpp"
+#include "cSAPatch.hpp"
+#include "cMP.hpp"
+#include "cMPPatch.hpp"
 
 class cMain final {
 	public:

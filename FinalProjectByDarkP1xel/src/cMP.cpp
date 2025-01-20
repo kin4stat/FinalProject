@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\cMP.hpp"
+#include "cMP.hpp"
 
 unsigned __int32 cMP::ui32SAMPBase{0};
 cMP::eVer cMP::SAMPVer{cMP::eVer::eUnkVer};

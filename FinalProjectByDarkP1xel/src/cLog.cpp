@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\cLog.hpp"
+#include "cLog.hpp"
 
 cLog::cLog(const std::wstring &wsLOGName) {
 	if (!wsLOGName.empty()) {

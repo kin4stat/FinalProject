@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\cMain.hpp"
+#include "cMain.hpp"
 
 HMODULE cMain::hModule{nullptr};
 LDR_DATA_TABLE_ENTRY *cMain::pModuleLDRData{nullptr};

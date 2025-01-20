@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\cInternet.hpp"
+#include "cInternet.hpp"
 
 cInternet::cInternet(class cWinAPIFuncs *pWinAPIFuncs) {
 	this->pWinAPIFuncs = pWinAPIFuncs;

@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\cHook.hpp"
+#include "cHook.hpp"
 
 cHook::cHook(class cWinAPIFuncs *pWinAPIFuncs) {
 	this->pWinAPIFuncs = pWinAPIFuncs;

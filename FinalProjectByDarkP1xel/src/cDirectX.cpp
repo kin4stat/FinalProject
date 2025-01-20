@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\cDirectX.hpp"
+#include "cDirectX.hpp"
 
 IDirect3D9 *cDirectX::pIDirect3D9{nullptr};
 IDirect3DDevice9 *cDirectX::pIDirect3DDevice9{nullptr};

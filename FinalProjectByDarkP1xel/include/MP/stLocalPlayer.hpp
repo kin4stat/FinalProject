@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\cMP.hpp"
+#include "cMP.hpp"
 
 struct stLocalPlayer037R1 final {
 	struct stSAMPPed *pSAMP_Actor{nullptr};

@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\cMain.hpp"
+#include "cMain.hpp"
 
 class cWinAPIFuncs final {
 	public:

@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\cMP.hpp"
+#include "cMP.hpp"
 
 struct stChatInfo final {
 	unsigned __int32 ui32PageSize{0};

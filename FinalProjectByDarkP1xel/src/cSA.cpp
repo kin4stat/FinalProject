@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\cSA.hpp"
+#include "cSA.hpp"
 
 cSA::cSA(class cMain *pMain) {
 	this->pPatch = new cSAPatch{pMain};

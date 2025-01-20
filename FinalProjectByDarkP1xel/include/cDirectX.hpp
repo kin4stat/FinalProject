@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\cWinAPIFuncs.hpp"
+#include "cWinAPIFuncs.hpp"
 #include "DirectX/cDXFont.hpp"
 #include "DirectX/cDXLine.hpp"
 

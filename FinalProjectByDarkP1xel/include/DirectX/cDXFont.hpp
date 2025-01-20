@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\cWinAPIFuncs.hpp"
+#include "cWinAPIFuncs.hpp"
 
 class cDXFont final {
 	public:

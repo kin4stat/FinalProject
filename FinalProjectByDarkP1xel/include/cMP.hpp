@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\cMain.hpp"
+#include "cMain.hpp"
 
 #include "MP/stSAMPEntity.hpp"
 #include "MP/stControllerState.hpp"

@@ -11,8 +11,8 @@
 #define PROJECT_VERSION_A "1.0.8.9"
 #define PROJECT_VERSION_W L"1.0.8.9"
 
-#include "include\cMain.hpp"
-#include "include\cExportAPI.hpp"
+#include "cMain.hpp"
+#include "cExportAPI.hpp"
 
 //#pragma warning(push)
 //#pragma warning(disable:4740)	/* Разрешает оставлять объекты препятствующих глобальной оптимизации */

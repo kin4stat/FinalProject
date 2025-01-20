@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\cMPPatch.hpp"
+#include "cMPPatch.hpp"
 
 cMPPatch::cMPPatch(class cMain *pMain) {
 	this->pMain = pMain;

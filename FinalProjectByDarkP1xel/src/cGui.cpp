@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\cGui.hpp"
+#include "cGui.hpp"
 
 cGui::cGui(class cMain *pMain, class cWinAPIFuncs *pWinAPIFuncs, class cInternet *pInternet) {
 	this->pMain = pMain;
