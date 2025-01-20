@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 12.0.40629.0
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FinalProjectByDarkP1xel", "FinalProjectByDarkP1xel\FinalProjectByDarkP1xel.vcxproj", "{8A554115-D9D7-49D6-A1B7-C78BCDFE4476}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		WinMain|x32 = WinMain|x32
+		WinMain|x64 = WinMain|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A554115-D9D7-49D6-A1B7-C78BCDFE4476}.WinMain|x32.ActiveCfg = WinMain|Win32
+		{8A554115-D9D7-49D6-A1B7-C78BCDFE4476}.WinMain|x32.Build.0 = WinMain|Win32
+		{8A554115-D9D7-49D6-A1B7-C78BCDFE4476}.WinMain|x64.ActiveCfg = WinMain|x64
+		{8A554115-D9D7-49D6-A1B7-C78BCDFE4476}.WinMain|x64.Build.0 = WinMain|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {764A82F0-0F0E-4B38-8CE2-5D84692EB016}
+	EndGlobalSection
+EndGlobal

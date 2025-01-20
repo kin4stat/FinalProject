@@ -1,0 +1,190 @@
+//
+//  This is a Final Project file.
+//	Developer: DarkP1xel <DarkP1xel@yandex.ru>
+//
+//  Official Thread: https://www.blast.hk/threads/60930/
+//
+//  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
+//
+
+#ifndef SAPED_HPP
+#define SAPED_HPP
+
+#pragma once
+
+#include "include\Vector\cVector3D.hpp"
+#include "include\SA\cPhysical.hpp"
+#include "include\SA\cWeapon.hpp"
+#include "include\SA\cPedIntelligence.hpp"
+#include "include\SA\cVehicle.hpp"
+#include "include\SA\cEntity.hpp"
+
+class cPed final {
+	public:
+	class cPhysical Physical {};
+	__int8 i8Pad[0x334];
+	struct stPedFlags final {
+		unsigned __int32 bIsStanding : 1;
+		unsigned __int32 bWasStanding : 1;
+		unsigned __int32 bIsLooking : 1;
+		unsigned __int32 bIsRestoringLook : 1;
+		unsigned __int32 bIsAimingGun : 1;
+		unsigned __int32 bIsRestoringGun : 1;
+		unsigned __int32 bCanPo__int32GunAtTarget : 1;
+		unsigned __int32 bIsTalking : 1;
+		unsigned __int32 bInVehicle : 1;
+		unsigned __int32 bIs__int32heAir : 1;
+		unsigned __int32 bIsLanding : 1;
+		unsigned __int32 bHitSomethingLastFrame : 1;
+		unsigned __int32 bIsNearCar : 1;
+		unsigned __int32 bRenderPedInCar : 1;
+		unsigned __int32 bUpdateAnimHeading : 1;
+		unsigned __int32 bRemoveHead : 1;
+		unsigned __int32 bFiringWeapon : 1;
+		unsigned __int32 bHasACamera : 1;
+		unsigned __int32 bPedIsBleeding : 1;
+		unsigned __int32 bStopAndShoot : 1;
+		unsigned __int32 bIsPedDieAnimPlaying : 1;
+		unsigned __int32 bStayInSamePlace : 1;
+		unsigned __int32 bKindaStayInSamePlace : 1;
+		unsigned __int32 bBeingChasedByPolice : 1;
+		unsigned __int32 bNotAllowedToDuck : 1;
+		unsigned __int32 bCrouchWhenShooting : 1;
+		unsigned __int32 bIsDucking : 1;
+		unsigned __int32 bGetUpAnimStarted : 1;
+		unsigned __int32 bDoBloodyFootpr__int32s : 1;
+		unsigned __int32 bDontDragMeOutCar : 1;
+		unsigned __int32 bStillOnValidPoly : 1;
+		unsigned __int32 bAllowMedicsToReviveMe : 1;
+		unsigned __int32 bResetWalkAnims : 1;
+		unsigned __int32 bOnBoat : 1;
+		unsigned __int32 bBusJacked : 1;
+		unsigned __int32 bFadeOut : 1;
+		unsigned __int32 bKnockedUp__int32oAir : 1;
+		unsigned __int32 bHitSteepSlope : 1;
+		unsigned __int32 bCullExtraFarAway : 1;
+		unsigned __int32 bTryingToReachDryLand : 1;
+		unsigned __int32 bCollidedWithMyVehicle : 1;
+		unsigned __int32 bRichFromMugging : 1;
+		unsigned __int32 bChrisCriminal : 1;
+		unsigned __int32 bShakeFist : 1;
+		unsigned __int32 bNoCriticalHits : 1;
+		unsigned __int32 bHasAlreadyBeenRecorded : 1;
+		unsigned __int32 bUpdateMatricesRequired : 1;
+		unsigned __int32 bFleeWhenStanding : 1;
+		unsigned __int32 bMiamiViceCop : 1;
+		unsigned __int32 bMoneyHasBeenGivenByScript : 1;
+		unsigned __int32 bHasBeenPhotographed : 1;
+		unsigned __int32 bIsDrowning : 1;
+		unsigned __int32 bDrownsInWater : 1;
+		unsigned __int32 bHeadStuckInCollision : 1;
+		unsigned __int32 bDeadPedInFrontOfCar : 1;
+		unsigned __int32 bStayInCarOnJack : 1;
+		unsigned __int32 bDontFight : 1;
+		unsigned __int32 bDoomAim : 1;
+		unsigned __int32 bCanBeShotInVehicle : 1;
+		unsigned __int32 bPushedAlongByCar : 1;
+		unsigned __int32 bNeverEverTargetThisPed : 1;
+		unsigned __int32 bThisPedIsATargetPriority : 1;
+		unsigned __int32 bCrouchWhenScared : 1;
+		unsigned __int32 bKnockedOffBike : 1;
+		unsigned __int32 bDonePositionOutOfCollision : 1;
+		unsigned __int32 bDontRender : 1;
+		unsigned __int32 bHasBeenAddedToPopulation : 1;
+		unsigned __int32 bHasJustLeftCar : 1;
+		unsigned __int32 bIsInDisguise : 1;
+		unsigned __int32 bDoesntListenToPlayerGroupCommands : 1;
+		unsigned __int32 bIsBeingArrested : 1;
+		unsigned __int32 bHasJustSoughtCover : 1;
+		unsigned __int32 bKilledByStealth : 1;
+		unsigned __int32 bDoesntDropWeaponsWhenDead : 1;
+		unsigned __int32 bCalledPreRender : 1;
+		unsigned __int32 bBloodPuddleCreated : 1;
+		unsigned __int32 bPartOfAttackWave : 1;
+		unsigned __int32 bClearRadarBlipOnDeath : 1;
+		unsigned __int32 bNeverLeavesGroup : 1;
+		unsigned __int32 bTestForBlockedPositions : 1;
+		unsigned __int32 bRightArmBlocked : 1;
+		unsigned __int32 bLeftArmBlocked : 1;
+		unsigned __int32 bDuckRightArmBlocked : 1;
+		unsigned __int32 bMidriffBlockedForJump : 1;
+		unsigned __int32 bFallenDown : 1;
+		unsigned __int32 bUseAttractorInstantly : 1;
+		unsigned __int32 bDontAcceptIKLookAts : 1;
+		unsigned __int32 bHasAScriptBrain : 1;
+		unsigned __int32 bWaitingForScriptBra__int32oLoad : 1;
+		unsigned __int32 bHasGroupDriveTask : 1;
+		unsigned __int32 bCanExitCar : 1;
+		unsigned __int32 bCantBeKnockedOffBike : 2;
+		unsigned __int32 bHasBeenRendered : 1;
+		unsigned __int32 bIsCached : 1;
+		unsigned __int32 bPushOtherPeds : 1;
+		unsigned __int32 bHasBulletProofVest : 1;
+		unsigned __int32 bUsingMobilePhone : 1;
+		unsigned __int32 bUpperBodyDamageAnimsOnly : 1;
+		unsigned __int32 bStuckUnderCar : 1;
+		unsigned __int32 bKeepTasksAfterCleanUp : 1;
+		unsigned __int32 bIsDyingStuck : 1;
+		unsigned __int32 bIgnoreHeightCheckOnGotoPo__int32Task : 1;
+		unsigned __int32 bForceDieInCar : 1;
+		unsigned __int32 bCheckColAboveHead : 1;
+		unsigned __int32 bIgnoreWeaponRange : 1;
+		unsigned __int32 bDruggedUp : 1;
+		unsigned __int32 bWantedByPolice : 1;
+		unsigned __int32 bSignalAfterKill : 1;
+		unsigned __int32 bCanClimbOntoBoat : 1;
+		unsigned __int32 bPedHitWallLastFrame : 1;
+		unsigned __int32 bIgnoreHeightDifferenceFollowingNodes : 1;
+		unsigned __int32 bMoveAnimSpeedHasBeenSetByTask : 1;
+		unsigned __int32 bGetOutUpsideDownCar : 1;
+		unsigned __int32 bJustGotOffTrain : 1;
+		unsigned __int32 bDeathPickupsPersist : 1;
+		unsigned __int32 bTestForShotInVehicle : 1;
+		unsigned __int32 bUsedForReplay : 1;
+	} PedFlags{};
+
+	explicit cPed::cPed(void) = default;
+	auto cPed::getWeapon(const unsigned __int8 ui8WeaponSlot) const -> class cWeapon *;
+	auto cPed::getPedIntelligence(void) const -> class cPedIntelligence *;
+	auto cPed::getVehicle(void) const -> class cVehicle *;
+	auto cPed::getLastVehicle(void) const -> class cVehicle *;
+	auto cPed::getContactEntity(void) const -> class cEntity *;
+	auto cPed::getAlive(void) -> bool;
+	auto cPed::getHealth(void) const -> float;
+	auto cPed::setHealth(const float fHealth) -> void;
+	auto cPed::getArmor(void) const -> float;
+	auto cPed::setArmor(const float fArmor) -> void;
+	auto cPed::getInterior(void) const -> unsigned __int8;
+	auto cPed::setInterior(const unsigned __int8 ui8Interior) -> void;
+	auto cPed::resetEnexPtr(void) -> void;
+	auto cPed::getPedState(void) const -> unsigned __int32;
+	auto cPed::setPedState(const unsigned __int32 ui32State) -> void;
+	auto cPed::getMoveState(void) const -> unsigned __int32;
+	auto cPed::setMoveState(const unsigned __int32 ui32MoveState) -> void;
+	auto cPed::getPlayerCheck(void) const -> unsigned __int8;
+	auto cPed::setPlayerCheck(const unsigned __int8 ui8PlayerCheck) -> void;
+	auto cPed::getBonePosition(class cVector3D *pResult, const unsigned __int32 ui32BoneID, const bool bDynamic = true) -> void;
+	auto cPed::updatePosition(void) -> void;
+	auto cPed::calculateNewVelocity(void) -> void;
+	auto cPed::giveWeapon(const unsigned __int32 ui32WeaponID, const unsigned __int32 ui32Ammo, const bool bLikeUnused = true) -> void;
+	auto cPed::giveDelayedWeapon(const unsigned __int32 ui32WeaponID, const unsigned __int32 ui32Ammo) -> void;
+	auto cPed::getCurrentWeaponSlot(void) const -> unsigned __int8;
+	auto cPed::getCurrentWeaponModel(void) const -> unsigned __int32;
+	auto cPed::setCurrentWeapon(const unsigned __int32 ui32WeaponID) -> void;
+	auto cPed::clearWeapon(const __int32 i32ModelID) -> void;
+	auto cPed::clearWeapons(void) -> void;
+	auto cPed::dettachPedFromEntity(void) -> void;
+	auto cPed::positionAnyPedOutOfCollision(void) -> bool;
+	auto cPed::setPedPositionInCar(void) -> void;
+	auto cPed::stopNonPartialAnims(void) -> void;
+	auto cPed::clearAll(void) -> void;
+	auto cPed::teleport(const class cVector3D *pPos) -> void;
+	auto cPed::say(const unsigned __int16 ui16AudioTable, const unsigned __int32 ui32Unk = 0, const float fUnkVolume = 1.0F, const bool bIgnoreMute = true, const bool bVocal = false, const bool bUnk = false) -> void;
+	auto cPed::isPlayer(void) -> bool;
+	auto cPed::setModelIndex(const unsigned __int32 ui32ModelID) -> bool;
+	cPed::~cPed(void) = default;
+
+	private:
+};
+
+#endif

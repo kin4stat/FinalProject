@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="WinMain|Win32">
+      <Configuration>WinMain</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinMain|x64">
+      <Configuration>WinMain</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8A554115-D9D7-49D6-A1B7-C78BCDFE4476}</ProjectGuid>
+    <RootNamespace>FinalProjectByDarkP1xel</RootNamespace>
+    <ProjectName>FinalProjectByDarkP1xel</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinMain|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinMain|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinMain|x64'">
+    <OutDir>..\..\..\..\..\..\..\Program Files %28x86%29\Rockstar Games\GTA San Andreas\</OutDir>
+    <TargetExt>.ASI</TargetExt>
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+    <LinkDelaySign>false</LinkDelaySign>
+    <EmbedManifest>false</EmbedManifest>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+    <PreLinkEventUseInBuild>false</PreLinkEventUseInBuild>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+    <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <IncludePath>$(DXSDK_DIR)Include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x64;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <TargetName>FinalProjectByDarkP1xel64</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinMain|Win32'">
+    <TargetExt>.ASI</TargetExt>
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+    <LinkDelaySign>false</LinkDelaySign>
+    <EmbedManifest>false</EmbedManifest>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+    <PreLinkEventUseInBuild>false</PreLinkEventUseInBuild>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+    <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <IncludePath>$(DXSDK_DIR)Include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+    <OutDir>..\..\..\..\..\..\..\Program Files %28x86%29\Rockstar Games\GTA San Andreas\</OutDir>
+    <TargetName>FinalProjectByDarkP1xel32</TargetName>
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='WinMain|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <ControlFlowGuard>false</ControlFlowGuard>
+      <EnableParallelCodeGeneration>false</EnableParallelCodeGeneration>
+      <CreateHotpatchableImage>false</CreateHotpatchableImage>
+      <OpenMPSupport>false</OpenMPSupport>
+      <ExpandAttributedSource>false</ExpandAttributedSource>
+      <UseFullPaths>true</UseFullPaths>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ShowIncludes>false</ShowIncludes>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <ErrorReporting>None</ErrorReporting>
+      <SDLCheck>true</SDLCheck>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <BrowseInformation>false</BrowseInformation>
+      <CompileAsManaged>false</CompileAsManaged>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <UseUnicodeForAssemblerListing>true</UseUnicodeForAssemblerListing>
+      <UndefineAllPreprocessorDefinitions>false</UndefineAllPreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <AdditionalIncludeDirectories>C:\Users\DarkP1xel\Documents\Visual Studio 2013\Projects\FinalProjectByDarkP1xel\FinalProjectByDarkP1xel;C:\Users\DarkP1xel\Documents\Visual Studio 2013\Projects\FinalProjectByDarkP1xel\FinalProjectByDarkP1xel\source;C:\Users\DarkP1xel\Documents\Visual Studio 2013\Projects\FinalProjectByDarkP1xel\FinalProjectByDarkP1xel\source\MinHook;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <UndefinePreprocessorDefinitions>BUILD_DLL;%(UndefinePreprocessorDefinitions)</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <CLRThreadAttribute>DefaultThreadingAttribute</CLRThreadAttribute>
+      <ShowProgress>NotSet</ShowProgress>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <LinkStatus>false</LinkStatus>
+      <PreventDllBinding>false</PreventDllBinding>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <EnableUAC>true</EnableUAC>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <FullProgramDatabaseFile>false</FullProgramDatabaseFile>
+      <AssemblyDebug>false</AssemblyDebug>
+      <TerminalServerAware>false</TerminalServerAware>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+      <WindowsMetadataLinkDelaySign>false</WindowsMetadataLinkDelaySign>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <SupportUnloadOfDelayLoadedDLL>true</SupportUnloadOfDelayLoadedDLL>
+      <CLRUnmanagedCodeCheck>true</CLRUnmanagedCodeCheck>
+      <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
+      <CLRSupportLastError>Disabled</CLRSupportLastError>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <AdditionalLibraryDirectories>C:\Users\DarkP1xel\Documents\Visual Studio 2013\Projects\FinalProjectByDarkP1xel\FinalProjectByDarkP1xel;C:\Users\DarkP1xel\Documents\Visual Studio 2013\Projects\FinalProjectByDarkP1xel\FinalProjectByDarkP1xel\SRC;C:\Users\DarkP1xel\Documents\Visual Studio 2013\Projects\FinalProjectByDarkP1xel\FinalProjectByDarkP1xel\MinHook;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <AdditionalDependencies>C:\Users\DarkP1xel\Documents\Visual Studio 2013\Projects\FinalProjectByDarkP1xel\FinalProjectByDarkP1xel\source\MinHook\libMinHook.x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SupportNobindOfDelayLoadedDLL>true</SupportNobindOfDelayLoadedDLL>
+      <GenerateMapFile>true</GenerateMapFile>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AllowIsolation>true</AllowIsolation>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <SetChecksum>true</SetChecksum>
+      <Version>5.3</Version>
+      <IgnoreEmbeddedIDL>true</IgnoreEmbeddedIDL>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <CreateHotPatchableImage>Enabled</CreateHotPatchableImage>
+    </Link>
+    <Manifest>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </Manifest>
+    <Manifest>
+      <VerboseOutput>false</VerboseOutput>
+      <SuppressDependencyElement>false</SuppressDependencyElement>
+      <GenerateCategoryTags>false</GenerateCategoryTags>
+    </Manifest>
+    <Xdcmake>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <DocumentLibraryDependencies>false</DocumentLibraryDependencies>
+    </Xdcmake>
+    <Bscmake>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <PreserveSbr>false</PreserveSbr>
+    </Bscmake>
+    <CustomBuildStep />
+    <ProjectReference />
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <CustomBuildStep>
+      <TreatOutputAsContent>false</TreatOutputAsContent>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='WinMain|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <ControlFlowGuard>false</ControlFlowGuard>
+      <CreateHotpatchableImage>false</CreateHotpatchableImage>
+      <OpenMPSupport>false</OpenMPSupport>
+      <ExpandAttributedSource>false</ExpandAttributedSource>
+      <UseFullPaths>false</UseFullPaths>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ShowIncludes>false</ShowIncludes>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <ErrorReporting>None</ErrorReporting>
+      <SDLCheck>true</SDLCheck>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <BrowseInformation>false</BrowseInformation>
+      <CompileAsManaged>false</CompileAsManaged>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <UseUnicodeForAssemblerListing>true</UseUnicodeForAssemblerListing>
+      <UndefineAllPreprocessorDefinitions>false</UndefineAllPreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalIncludeDirectories>C:\Users\DarkP1xel\Documents\Visual Studio 2013\Projects\FinalProjectByDarkP1xel\FinalProjectByDarkP1xel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <UndefinePreprocessorDefinitions>BUILD_DLL;%(UndefinePreprocessorDefinitions)</UndefinePreprocessorDefinitions>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnablePREfast>false</EnablePREfast>
+      <EnableParallelCodeGeneration>false</EnableParallelCodeGeneration>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <CLRThreadAttribute>DefaultThreadingAttribute</CLRThreadAttribute>
+      <ShowProgress>NotSet</ShowProgress>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <PreventDllBinding>false</PreventDllBinding>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <EnableUAC>true</EnableUAC>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <FullProgramDatabaseFile>false</FullProgramDatabaseFile>
+      <AssemblyDebug>false</AssemblyDebug>
+      <TerminalServerAware>false</TerminalServerAware>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+      <WindowsMetadataLinkDelaySign>false</WindowsMetadataLinkDelaySign>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <SupportUnloadOfDelayLoadedDLL>true</SupportUnloadOfDelayLoadedDLL>
+      <CLRUnmanagedCodeCheck>false</CLRUnmanagedCodeCheck>
+      <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
+      <CLRSupportLastError>Disabled</CLRSupportLastError>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <AdditionalLibraryDirectories>C:\Users\DarkP1xel\Documents\Visual Studio 2013\Projects\FinalProjectByDarkP1xel\FinalProjectByDarkP1xel;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <SupportNobindOfDelayLoadedDLL>true</SupportNobindOfDelayLoadedDLL>
+      <GenerateMapFile>true</GenerateMapFile>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AllowIsolation>true</AllowIsolation>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <SetChecksum>true</SetChecksum>
+      <Version>1.08</Version>
+      <IgnoreEmbeddedIDL>true</IgnoreEmbeddedIDL>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <CreateHotPatchableImage>Enabled</CreateHotPatchableImage>
+      <LargeAddressAware>false</LargeAddressAware>
+      <LinkStatus>false</LinkStatus>
+      <NoEntryPoint>false</NoEntryPoint>
+      <TurnOffAssemblyGeneration>false</TurnOffAssemblyGeneration>
+    </Link>
+    <Manifest>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </Manifest>
+    <Manifest>
+      <VerboseOutput>false</VerboseOutput>
+      <SuppressDependencyElement>false</SuppressDependencyElement>
+      <GenerateCategoryTags>false</GenerateCategoryTags>
+    </Manifest>
+    <Xdcmake>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <DocumentLibraryDependencies>false</DocumentLibraryDependencies>
+    </Xdcmake>
+    <Bscmake>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <PreserveSbr>false</PreserveSbr>
+    </Bscmake>
+    <CustomBuildStep />
+    <ProjectReference />
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <CustomBuildStep>
+      <TreatOutputAsContent>false</TreatOutputAsContent>
+    </CustomBuildStep>
+    <ResourceCompile>
+      <Culture>0x0419</Culture>
+    </ResourceCompile>
+    <ResourceCompile>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="include\ImGui\imgui.cpp" />
+    <ClCompile Include="include\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="include\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="include\ImGui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="include\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="include\ImGui\imgui_stdlib.cpp" />
+    <ClCompile Include="include\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="include\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="src\cInternet.cpp" />
+    <ClCompile Include="src\DirectX\cDXFont.cpp" />
+    <ClCompile Include="src\DirectX\cDXLine.cpp" />
+    <ClCompile Include="src\MP\st3DTextPool.cpp" />
+    <ClCompile Include="src\MP\stLocalPlayer.cpp" />
+    <ClCompile Include="src\MP\stPickupPool.cpp" />
+    <ClCompile Include="src\MP\stTextDrawPool.cpp" />
+    <ClCompile Include="src\MP\stVehiclePool.cpp" />
+    <ClCompile Include="src\SA\c3DMarker.cpp" />
+    <ClCompile Include="src\SA\cAERadioTrackManager.cpp" />
+    <ClCompile Include="src\SA\cBaseModelInfo.cpp" />
+    <ClCompile Include="src\SA\cBoat.cpp" />
+    <ClCompile Include="src\SA\cBox.cpp" />
+    <ClCompile Include="src\SA\cCamTweak.cpp" />
+    <ClCompile Include="src\SA\cClumpModelInfo.cpp" />
+    <ClCompile Include="src\SA\cColModel.cpp" />
+    <ClCompile Include="src\SA\cColPoint.cpp" />
+    <ClCompile Include="src\SA\cColSphere.cpp" />
+    <ClCompile Include="src\SA\cDirectionArrow.cpp" />
+    <ClCompile Include="src\SA\cFx.cpp" />
+    <ClCompile Include="src\SA\cFxFrustumInfo.cpp" />
+    <ClCompile Include="src\SA\cFxManager.cpp" />
+    <ClCompile Include="src\SA\cFxMemoryPool.cpp" />
+    <ClCompile Include="src\SA\cFxPlane.cpp" />
+    <ClCompile Include="src\SA\cFxPrtMult.cpp" />
+    <ClCompile Include="src\SA\cFxSphere.cpp" />
+    <ClCompile Include="src\SA\cFxSystem.cpp" />
+    <ClCompile Include="src\SA\cHeli.cpp" />
+    <ClCompile Include="src\SA\cList.cpp" />
+    <ClCompile Include="src\SA\cListItem.cpp" />
+    <ClCompile Include="src\SA\cObjectInfo.cpp" />
+    <ClCompile Include="src\SA\cPlane.cpp" />
+    <ClCompile Include="src\MP\stChatInfo.cpp" />
+    <ClCompile Include="src\MP\stPlayerPool.cpp" />
+    <ClCompile Include="src\MP\stSAMP.cpp" />
+    <ClCompile Include="src\SA\cAutomobile.cpp" />
+    <ClCompile Include="src\SA\cBike.cpp" />
+    <ClCompile Include="src\SA\cDamageManager.cpp" />
+    <ClCompile Include="src\SA\cMenuManager.cpp" />
+    <ClCompile Include="src\SA\cCarPathLink.cpp" />
+    <ClCompile Include="src\SA\cCarPathLinkAddress.cpp" />
+    <ClCompile Include="src\SA\cPointLights.cpp" />
+    <ClCompile Include="src\SA\cStreamingInfo.cpp" />
+    <ClCompile Include="src\SA\cTrailer.cpp" />
+    <ClCompile Include="src\Vector\cCompressedVector2D.cpp" />
+    <ClCompile Include="src\SA\cD3DResourceSystem.cpp" />
+    <ClCompile Include="src\SA\cForbiddenArea.cpp" />
+    <ClCompile Include="src\SA\cIPLStore.cpp" />
+    <ClCompile Include="src\SA\cObject.cpp" />
+    <ClCompile Include="src\SA\cPathIntersectionInfo.cpp" />
+    <ClCompile Include="src\SA\cPathNode.cpp" />
+    <ClCompile Include="src\cGui.cpp" />
+    <ClCompile Include="src\cHook.cpp" />
+    <ClCompile Include="src\cDirectX.cpp" />
+    <ClCompile Include="src\cMP.cpp" />
+    <ClCompile Include="src\cWinAPIFuncs.cpp" />
+    <ClCompile Include="src\cLog.cpp" />
+    <ClCompile Include="src\cMain.cpp" />
+    <ClCompile Include="src\cSA.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\cMPPatch.cpp" />
+    <ClCompile Include="src\MP\RakNet\cBitStream.cpp" />
+    <ClCompile Include="src\MP\RakNet\cRakClientManager.cpp" />
+    <ClCompile Include="src\SA\cAudioEngine.cpp" />
+    <ClCompile Include="src\SA\cCam.cpp" />
+    <ClCompile Include="src\SA\cCamera.cpp" />
+    <ClCompile Include="src\SA\cCheat.cpp" />
+    <ClCompile Include="src\SA\cColStore.cpp" />
+    <ClCompile Include="src\Vector\cCompressedVector3D.cpp" />
+    <ClCompile Include="src\SA\cControllerState.cpp" />
+    <ClCompile Include="src\SA\cEntity.cpp" />
+    <ClCompile Include="src\SA\cAutoHandlingData.cpp" />
+    <ClCompile Include="src\SA\cHandlingDataMgr.cpp" />
+    <ClCompile Include="src\SA\cMatrix.cpp" />
+    <ClCompile Include="src\SA\cMatrixLink.cpp" />
+    <ClCompile Include="src\SA\cNodeAddress.cpp" />
+    <ClCompile Include="src\SA\cPad.cpp" />
+    <ClCompile Include="src\SA\cPathFind.cpp" />
+    <ClCompile Include="src\SA\cPed.cpp" />
+    <ClCompile Include="src\SA\cPedIntelligence.cpp" />
+    <ClCompile Include="src\SA\cPhysical.cpp" />
+    <ClCompile Include="src\SA\cPlaceable.cpp" />
+    <ClCompile Include="src\SA\cPlayerInfo.cpp" />
+    <ClCompile Include="src\SA\cPool.cpp" />
+    <ClCompile Include="src\SA\cPools.cpp" />
+    <ClCompile Include="src\SA\cQuadBike.cpp" />
+    <ClCompile Include="src\SA\cQueuedMode.cpp" />
+    <ClCompile Include="src\SA\cRadar.cpp" />
+    <ClCompile Include="src\SA\cRadarTrace.cpp" />
+    <ClCompile Include="src\SA\cRenderer.cpp" />
+    <ClCompile Include="src\cSAPatch.cpp" />
+    <ClCompile Include="src\SA\cSphere.cpp" />
+    <ClCompile Include="src\SA\cSprite2D.cpp" />
+    <ClCompile Include="src\SA\cStreamedScript.cpp" />
+    <ClCompile Include="src\SA\cStreamedScripts.cpp" />
+    <ClCompile Include="src\SA\cStreaming.cpp" />
+    <ClCompile Include="src\SA\cTransmission.cpp" />
+    <ClCompile Include="src\SA\cTransmissionGear.cpp" />
+    <ClCompile Include="src\SA\cUpgradePosnDesc.cpp" />
+    <ClCompile Include="src\Vector\cVector2D.cpp" />
+    <ClCompile Include="src\Vector\cVector3D.cpp" />
+    <ClCompile Include="src\Vector\cVector4D.cpp" />
+    <ClCompile Include="src\SA\cVehicle.cpp" />
+    <ClCompile Include="src\SA\cVehicleAudioSettings.cpp" />
+    <ClCompile Include="src\SA\cVehicleModelInfo.cpp" />
+    <ClCompile Include="src\SA\cVehicleStructure.cpp" />
+    <ClCompile Include="src\SA\cWeapon.cpp" />
+    <ClCompile Include="src\SA\cWeaponInfo.cpp" />
+    <ClCompile Include="src\SA\cWeather.cpp" />
+    <ClCompile Include="src\SA\cWorld.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\cInternet.hpp" />
+    <ClInclude Include="include\cDirectX.hpp" />
+    <ClInclude Include="include\cExportAPI.hpp" />
+    <ClInclude Include="include\cGui.hpp" />
+    <ClInclude Include="include\cHook.hpp" />
+    <ClInclude Include="include\cMP.hpp" />
+    <ClInclude Include="include\cWinAPIFuncs.hpp" />
+    <ClInclude Include="include\DirectX\cDXFont.hpp" />
+    <ClInclude Include="include\DirectX\cDXLine.hpp" />
+    <ClInclude Include="include\cMain.hpp" />
+    <ClInclude Include="include\cLog.hpp" />
+    <ClInclude Include="include\cSA.hpp" />
+    <ClInclude Include="include\cMPPatch.hpp" />
+    <ClInclude Include="include\ImGui\imconfig.h" />
+    <ClInclude Include="include\ImGui\imgui.h" />
+    <ClInclude Include="include\ImGui\imgui_impl_dx9.h" />
+    <ClInclude Include="include\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="include\ImGui\imgui_internal.h" />
+    <ClInclude Include="include\ImGui\imgui_stdlib.h" />
+    <ClInclude Include="include\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="include\ImGui\imstb_textedit.h" />
+    <ClInclude Include="include\ImGui\imstb_truetype.h" />
+    <ClInclude Include="include\MP\RakNet\cRakClient.hpp" />
+    <ClInclude Include="include\MP\RakNet\cRakClientManager.hpp" />
+    <ClInclude Include="include\MP\RakNet\stNetworkID.hpp" />
+    <ClInclude Include="include\MP\RakNet\stPacket.hpp" />
+    <ClInclude Include="include\MP\st3DText.hpp" />
+    <ClInclude Include="include\MP\st3DTextPool.hpp" />
+    <ClInclude Include="include\MP\stAnimation.hpp" />
+    <ClInclude Include="include\MP\stBulletData.hpp" />
+    <ClInclude Include="include\MP\stBulletPacket.hpp" />
+    <ClInclude Include="include\MP\stCameraTarget.hpp" />
+    <ClInclude Include="include\MP\stChatEntry.hpp" />
+    <ClInclude Include="include\MP\stChatInfo.hpp" />
+    <ClInclude Include="include\MP\stClassSelection.hpp" />
+    <ClInclude Include="include\MP\stControllerState.hpp" />
+    <ClInclude Include="include\MP\stDamageData.hpp" />
+    <ClInclude Include="include\MP\stDeath.hpp" />
+    <ClInclude Include="include\MP\stEnterVehicle.hpp" />
+    <ClInclude Include="include\MP\stHeadSync.hpp" />
+    <ClInclude Include="include\MP\stInCarPacket.hpp" />
+    <ClInclude Include="include\MP\stLocalPlayer.hpp" />
+    <ClInclude Include="include\MP\stMiscInfo.hpp" />
+    <ClInclude Include="include\MP\stPassengerData.hpp" />
+    <ClInclude Include="include\MP\RakNet\cBitStream.hpp" />
+    <ClInclude Include="include\MP\RakNet\stPlayerID.hpp" />
+    <ClInclude Include="include\MP\RakNet\stRPCNode.hpp" />
+    <ClInclude Include="include\MP\RakNet\stRPCParameters.hpp" />
+    <ClInclude Include="include\MP\stAimData.hpp" />
+    <ClInclude Include="include\MP\stInCarData.hpp" />
+    <ClInclude Include="include\MP\stOnFootData.hpp" />
+    <ClInclude Include="include\MP\stPickup.hpp" />
+    <ClInclude Include="include\MP\stPickupPool.hpp" />
+    <ClInclude Include="include\MP\stPlayerPool.hpp" />
+    <ClInclude Include="include\MP\stRemotePlayer.hpp" />
+    <ClInclude Include="include\MP\stRemotePlayerData.hpp" />
+    <ClInclude Include="include\MP\stSAMPEntity.hpp" />
+    <ClInclude Include="include\MP\stSAMPPed.hpp" />
+    <ClInclude Include="include\MP\stSAMPPools.hpp" />
+    <ClInclude Include="include\MP\stSAMPVehicle.hpp" />
+    <ClInclude Include="include\MP\stSCMEvent.hpp" />
+    <ClInclude Include="include\MP\stServerPresets.hpp" />
+    <ClInclude Include="include\MP\stServerInfo.hpp" />
+    <ClInclude Include="include\MP\stSAMP.hpp" />
+    <ClInclude Include="include\MP\stSpawnInfo.hpp" />
+    <ClInclude Include="include\MP\stSpectating.hpp" />
+    <ClInclude Include="include\MP\stSurfData.hpp" />
+    <ClInclude Include="include\MP\stTextDraw.hpp" />
+    <ClInclude Include="include\MP\stTextDrawPool.hpp" />
+    <ClInclude Include="include\MP\stTrailerData.hpp" />
+    <ClInclude Include="include\MP\stUnoccupiedData.hpp" />
+    <ClInclude Include="include\MP\stUnoccupiedPacket.hpp" />
+    <ClInclude Include="include\MP\stVehicleInfo.hpp" />
+    <ClInclude Include="include\MP\stVehiclePool.hpp" />
+    <ClInclude Include="include\MP\stWeaponBaseData.hpp" />
+    <ClInclude Include="include\MP\stWeaponSlot.hpp" />
+    <ClInclude Include="include\MP\stWeaponUpdate.hpp" />
+    <ClInclude Include="include\SA\c3DMarker.hpp" />
+    <ClInclude Include="include\SA\cAERadioTrackManager.hpp" />
+    <ClInclude Include="include\SA\cAudioEngine.hpp" />
+    <ClInclude Include="include\SA\cAutomobile.hpp" />
+    <ClInclude Include="include\SA\cBaseModelInfo.hpp" />
+    <ClInclude Include="include\SA\cBike.hpp" />
+    <ClInclude Include="include\SA\cBoat.hpp" />
+    <ClInclude Include="include\SA\cBox.hpp" />
+    <ClInclude Include="include\SA\cCam.hpp" />
+    <ClInclude Include="include\SA\cCamera.hpp" />
+    <ClInclude Include="include\SA\cCamTweak.hpp" />
+    <ClInclude Include="include\SA\cCarPathLink.hpp" />
+    <ClInclude Include="include\SA\cCarPathLinkAddress.hpp" />
+    <ClInclude Include="include\SA\cCheat.hpp" />
+    <ClInclude Include="include\SA\cClumpModelInfo.hpp" />
+    <ClInclude Include="include\SA\cColModel.hpp" />
+    <ClInclude Include="include\SA\cColPoint.hpp" />
+    <ClInclude Include="include\SA\cColSphere.hpp" />
+    <ClInclude Include="include\SA\cColStore.hpp" />
+    <ClInclude Include="include\SA\cDirectionArrow.hpp" />
+    <ClInclude Include="include\SA\cFx.hpp" />
+    <ClInclude Include="include\SA\cFxFrustumInfo.hpp" />
+    <ClInclude Include="include\SA\cFxManager.hpp" />
+    <ClInclude Include="include\SA\cFxMemoryPool.hpp" />
+    <ClInclude Include="include\SA\cFxPlane.hpp" />
+    <ClInclude Include="include\SA\cFxPrtMult.hpp" />
+    <ClInclude Include="include\SA\cFxSphere.hpp" />
+    <ClInclude Include="include\SA\cFxSystem.hpp" />
+    <ClInclude Include="include\SA\cList.hpp" />
+    <ClInclude Include="include\SA\cListItem.hpp" />
+    <ClInclude Include="include\SA\cPointLights.hpp" />
+    <ClInclude Include="include\SA\cStreamingInfo.hpp" />
+    <ClInclude Include="include\SA\cTrailer.hpp" />
+    <ClInclude Include="include\SA\RenderWare\stRwRGBAReal.hpp" />
+    <ClInclude Include="include\Vector\cCompressedVector2D.hpp" />
+    <ClInclude Include="include\Vector\cCompressedVector3D.hpp" />
+    <ClInclude Include="include\SA\cControllerState.hpp" />
+    <ClInclude Include="include\SA\cD3DResourceSystem.hpp" />
+    <ClInclude Include="include\SA\cDamageManager.hpp" />
+    <ClInclude Include="include\SA\cEntity.hpp" />
+    <ClInclude Include="include\SA\cAutoHandlingData.hpp" />
+    <ClInclude Include="include\SA\cHandlingDataMgr.hpp" />
+    <ClInclude Include="include\SA\cHeli.hpp" />
+    <ClInclude Include="include\SA\cIPLStore.hpp" />
+    <ClInclude Include="include\SA\cMatrix.hpp" />
+    <ClInclude Include="include\SA\cMatrixLink.hpp" />
+    <ClInclude Include="include\SA\cMenuManager.hpp" />
+    <ClInclude Include="include\SA\cObject.hpp" />
+    <ClInclude Include="include\SA\cObjectInfo.hpp" />
+    <ClInclude Include="include\SA\cPool.hpp" />
+    <ClInclude Include="include\SA\cPools.hpp" />
+    <ClInclude Include="include\SA\cQuadBike.hpp" />
+    <ClInclude Include="include\SA\cRadar.hpp" />
+    <ClInclude Include="include\SA\cRadarTrace.hpp" />
+    <ClInclude Include="include\SA\cRenderer.hpp" />
+    <ClInclude Include="include\cSAPatch.hpp" />
+    <ClInclude Include="include\SA\cNodeAddress.hpp" />
+    <ClInclude Include="include\SA\cPad.hpp" />
+    <ClInclude Include="include\SA\cPathFind.hpp" />
+    <ClInclude Include="include\SA\cPathIntersectionInfo.hpp" />
+    <ClInclude Include="include\SA\cPed.hpp" />
+    <ClInclude Include="include\SA\cPedIntelligence.hpp" />
+    <ClInclude Include="include\SA\cPhysical.hpp" />
+    <ClInclude Include="include\SA\cPlaceable.hpp" />
+    <ClInclude Include="include\SA\cPlayerInfo.hpp" />
+    <ClInclude Include="include\SA\cQueuedMode.hpp" />
+    <ClInclude Include="include\SA\cSphere.hpp" />
+    <ClInclude Include="include\SA\cSprite2D.hpp" />
+    <ClInclude Include="include\SA\cStreamedScript.hpp" />
+    <ClInclude Include="include\SA\cStreamedScripts.hpp" />
+    <ClInclude Include="include\SA\cStreaming.hpp" />
+    <ClInclude Include="include\SA\cTransmission.hpp" />
+    <ClInclude Include="include\SA\cTransmissionGear.hpp" />
+    <ClInclude Include="include\SA\cUpgradePosnDesc.hpp" />
+    <ClInclude Include="include\Vector\cVector2D.hpp" />
+    <ClInclude Include="include\Vector\cVector3D.hpp" />
+    <ClInclude Include="include\Vector\cVector4D.hpp" />
+    <ClInclude Include="include\SA\cVehicle.hpp" />
+    <ClInclude Include="include\SA\cVehicleAudioSettings.hpp" />
+    <ClInclude Include="include\SA\cVehicleModelInfo.hpp" />
+    <ClInclude Include="include\SA\cVehicleStructure.hpp" />
+    <ClInclude Include="include\SA\cWeapon.hpp" />
+    <ClInclude Include="include\SA\cWeaponInfo.hpp" />
+    <ClInclude Include="include\SA\cWeather.hpp" />
+    <ClInclude Include="include\SA\cWorld.hpp" />
+    <ClInclude Include="include\SA\cPathNode.hpp" />
+    <ClInclude Include="include\SA\cForbiddenArea.hpp" />
+    <ClInclude Include="include\SA\RenderWare\stRpMaterial.hpp" />
+    <ClInclude Include="include\SA\RenderWare\stRwFrame.hpp" />
+    <ClInclude Include="include\SA\RenderWare\stRwLinkList.hpp" />
+    <ClInclude Include="include\SA\RenderWare\stRwLLLink.hpp" />
+    <ClInclude Include="include\SA\RenderWare\stRwMatrix.hpp" />
+    <ClInclude Include="include\SA\RenderWare\stRwObject.hpp" />
+    <ClInclude Include="include\SA\RenderWare\stRwRGBA.hpp" />
+    <ClInclude Include="include\SA\RenderWare\stRwSurfaceProperties.hpp" />
+    <ClInclude Include="include\SA\RenderWare\stRwTexture.hpp" />
+    <ClInclude Include="include\SA\RenderWare\stRxD3D9InstanceData.hpp" />
+    <ClInclude Include="include\SA\cPlane.hpp" />
+    <ClInclude Include="include\SA\RenderWare\stRxD3D9ResEntryHeader.hpp" />
+    <ClInclude Include="include\SA\RenderWare\stRxD3D9VertexStream.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\icomoon-ultimate.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\background.jpg" />
+    <Image Include="resources\logo.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

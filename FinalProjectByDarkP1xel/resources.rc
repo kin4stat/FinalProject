@@ -1,0 +1,19 @@
+//
+//  This is a Final Project file.
+//	Developer: DarkP1xel <DarkP1xel@yandex.ru>
+//
+//  Official Thread: https://www.blast.hk/threads/60930/
+//
+//  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
+//
+
+#ifndef RESOURCES_HPP
+#define RESOURCES_HPP
+
+#pragma once
+
+1 FONT L"resources\\icomoon-ultimate.ttf"
+2 FONT L"resources\\logo.png"
+3 FONT L"resources\\background.jpg"
+
+#endif
