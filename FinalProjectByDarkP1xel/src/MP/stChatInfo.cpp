@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\MP\stChatInfo.hpp"
+#include "MP/stChatInfo.hpp"
 
 auto stChatInfo::addColorMessage(const unsigned long ulColor, const char *pText) -> void {
 	switch (cMP::SAMPVer) {

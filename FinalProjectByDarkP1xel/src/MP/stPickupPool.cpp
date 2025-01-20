@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\MP\stPickupPool.hpp"
+#include "MP/stPickupPool.hpp"
 
 auto stPickupPool::forAllPickups(bool(__cdecl *pFunc)(const unsigned __int16 ui16PickupID, struct stPickup *pPickUp)) -> void {
 	for (unsigned __int16 ui16PickupID{0}; ui16PickupID < 4096; ++ui16PickupID) {

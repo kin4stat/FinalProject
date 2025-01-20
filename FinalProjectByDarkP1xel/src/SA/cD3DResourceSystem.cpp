@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cD3DResourceSystem.hpp"
+#include "SA/cD3DResourceSystem.hpp"
 
 auto cD3DResourceSystem::cancelBuffering(void) -> void {
 	reinterpret_cast<void(__cdecl *)(void)>(0x730900)();

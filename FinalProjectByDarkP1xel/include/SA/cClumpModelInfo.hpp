@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\SA\cBaseModelInfo.hpp"
+#include "SA/cBaseModelInfo.hpp"
 
 class cClumpModelInfo final {
 	public:

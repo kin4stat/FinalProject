@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\MP\stPickup.hpp"
+#include "MP/stPickup.hpp"
 
 struct stPickupPool final {
 	unsigned __int32 ui32PickupsCount{0};

@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cPedIntelligence.hpp"	 
+#include "SA/cPedIntelligence.hpp"	 
 
 auto cPedIntelligence::flushImmediately(const bool bUnk) -> bool {
 	return reinterpret_cast<bool(__thiscall *)(class cPedIntelligence *pThis, const bool bUnk)>(0x601640)(this, bUnk);

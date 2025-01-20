@@ -12,8 +12,8 @@
 
 #pragma once
 
-#include "include\Vector\cCompressedVector2D.hpp"
-#include "include\SA\cNodeAddress.hpp"
+#include "Vector/cCompressedVector2D.hpp"
+#include "SA/cNodeAddress.hpp"
 
 class cCarPathLink final {
 	public:

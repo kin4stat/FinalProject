@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cStreaming.hpp"
+#include "SA/cStreaming.hpp"
 
 auto cStreaming::init(void) -> void {
 	reinterpret_cast<void(__cdecl *)(void)>(0x5B9020)();

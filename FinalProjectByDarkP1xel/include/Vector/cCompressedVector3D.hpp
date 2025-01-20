@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\Vector\cCompressedVector2D.hpp"
+#include "Vector/cCompressedVector2D.hpp"
 
 class cCompressedVector3D final: public cCompressedVector2D {
 	public:

@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\SA\cTransmissionGear.hpp"
+#include "SA/cTransmissionGear.hpp"
 
 class cTransmission final {
 	public:

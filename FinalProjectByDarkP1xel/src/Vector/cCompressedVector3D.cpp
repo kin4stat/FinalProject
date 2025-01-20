@@ -7,4 +7,4 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\Vector\cCompressedVector3D.hpp"
+#include "Vector/cCompressedVector3D.hpp"

@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cBoat.hpp"
+#include "SA/cBoat.hpp"
 
 auto cBoat::teleport(const class cVector3D *pPos, const bool bResetAngle) -> void {
 	reinterpret_cast<void(__thiscall *)(class cBoat *pThis, const class cVector3D vecPos, const bool bResetAngle)>(0x6F20E0)(this, *pPos, bResetAngle);

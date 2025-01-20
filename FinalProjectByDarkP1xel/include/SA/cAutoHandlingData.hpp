@@ -12,8 +12,8 @@
 
 #pragma once
 
-#include "include\Vector\cVector3D.hpp"
-#include "include\SA\cTransmission.hpp"
+#include "Vector/cVector3D.hpp"
+#include "SA/cTransmission.hpp"
 
 class cAutoHandlingData final {
 	public:

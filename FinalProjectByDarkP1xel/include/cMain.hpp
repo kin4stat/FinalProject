@@ -28,9 +28,9 @@
 #include <winternl.h>
 #include <d3dx9core.h>
 
-#include "include\Vector\cVector4D.hpp"
-#include "include\Vector\cCompressedVector2D.hpp"
-#include "include\Vector\cCompressedVector3D.hpp"
+#include "Vector/cVector4D.hpp"
+#include "Vector/cCompressedVector2D.hpp"
+#include "Vector/cCompressedVector3D.hpp"
 
 #include "include\cLog.hpp"
 #include "include\cWinAPIFuncs.hpp"

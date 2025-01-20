@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\SA\RenderWare\stRpMaterial.hpp"
+#include "SA/RenderWare\stRpMaterial.hpp"
 
 struct stRxD3D9InstanceData final {
 	unsigned __int32 ui32NumIndex{0};

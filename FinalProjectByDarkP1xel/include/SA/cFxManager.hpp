@@ -12,10 +12,10 @@
 
 #pragma once
 
-#include "include\SA\cList.hpp"
-#include "include\SA\cFxSystem.hpp"
-#include "include\SA\cFxFrustumInfo.hpp"
-#include "include\SA\cFxMemoryPool.hpp"
+#include "SA/cList.hpp"
+#include "SA/cFxSystem.hpp"
+#include "SA/cFxFrustumInfo.hpp"
+#include "SA/cFxMemoryPool.hpp"
 
 class cFxManager final {
 	public:

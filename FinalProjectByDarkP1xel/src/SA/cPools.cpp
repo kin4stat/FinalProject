@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cPools.hpp"
+#include "SA/cPools.hpp"
 
 auto cPools::getPlayerPool(void) -> class cPool<class cPed> * {
 	return *reinterpret_cast<class cPool<class cPed> **>(0xB74490);

@@ -14,7 +14,7 @@
 
 #include <cmath>
 
-#include "include\Vector\cVector2D.hpp"
+#include "Vector/cVector2D.hpp"
 
 class cVector3D : public cVector2D {
 	public:

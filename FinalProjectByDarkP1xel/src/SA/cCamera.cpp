@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cCamera.hpp"
+#include "SA/cCamera.hpp"
 
 auto cCamera::restoreWithJumpCut(void) -> void {
 	reinterpret_cast<void(__thiscall *)(class cCamera *pThis)>(0x50BAB0)(this);

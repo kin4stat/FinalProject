@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\MP\RakNet\cBitStream.hpp"
+#include "MP/RakNet\cBitStream.hpp"
 
 cBitStream::cBitStream(void *pData, const unsigned __int32 ui32DataLenBytes) {
 	this->pData = static_cast<unsigned __int8 *>(pData);

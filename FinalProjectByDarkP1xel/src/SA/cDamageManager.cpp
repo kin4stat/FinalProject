@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cDamageManager.hpp"
+#include "SA/cDamageManager.hpp"
 
 auto cDamageManager::setLightStatus(const cDamageManager::eLights Light, const bool bStatus) -> void {
 	reinterpret_cast<void(__thiscall *)(class cDamageManager *pThis, const cDamageManager::eLights Light, const bool bStatus)>(0x6C2100)(this, Light, bStatus);

@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cPlayerInfo.hpp"
+#include "SA/cPlayerInfo.hpp"
 
 auto cPlayerInfo::getTimeCanRun(void) const -> float {
 	return *reinterpret_cast<const float *>(reinterpret_cast<const unsigned __int32>(this) + 0x4 + 0x18);

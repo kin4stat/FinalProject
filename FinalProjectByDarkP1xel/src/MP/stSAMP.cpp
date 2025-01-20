@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\MP\stSAMP.hpp"
+#include "MP/stSAMP.hpp"
 
 // .....
 /* R1 */

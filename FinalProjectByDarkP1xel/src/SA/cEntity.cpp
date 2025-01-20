@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cEntity.hpp"
+#include "SA/cEntity.hpp"
 
 auto cEntity::updateRW(void) -> void {
 	reinterpret_cast<void(__thiscall *)(class cEntity *pThis)>(0x446F90)(this);

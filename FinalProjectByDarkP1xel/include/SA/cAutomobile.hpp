@@ -12,8 +12,8 @@
 
 #pragma once
 
-#include "include\SA\cVehicle.hpp"
-#include "include\SA\cDamageManager.hpp"
+#include "SA/cVehicle.hpp"
+#include "SA/cDamageManager.hpp"
 
 class cAutomobile final {
 	public:

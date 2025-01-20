@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\DirectX\cDXFont.hpp"
+#include "DirectX/cDXFont.hpp"
 
 cDXFont::cDXFont(class cWinAPIFuncs *pWinAPIFuncs) {
 	this->pWinAPIFuncs = pWinAPIFuncs;

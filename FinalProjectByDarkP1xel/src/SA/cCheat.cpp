@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cCheat.hpp"
+#include "SA/cCheat.hpp"
 
 auto cCheat::suicide(void) -> void {
 	reinterpret_cast<void(__cdecl *)(void)>(0x438FF0)();

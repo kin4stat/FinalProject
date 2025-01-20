@@ -12,8 +12,8 @@
 
 #pragma once
 
-#include "include\SA\cBox.hpp"
-#include "include\SA\cColSphere.hpp"
+#include "SA/cBox.hpp"
+#include "SA/cColSphere.hpp"
 
 class cColModel final {
 	public:

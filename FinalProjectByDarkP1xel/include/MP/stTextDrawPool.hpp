@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\MP\stTextDraw.hpp"
+#include "MP/stTextDraw.hpp"
 
 struct stTextDrawPool final {
 	unsigned __int32 ui32NotEmpty[2048 + 256];

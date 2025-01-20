@@ -13,8 +13,8 @@
 #pragma once
 
 #include "include\cWinAPIFuncs.hpp"
-#include "include\DirectX\cDXFont.hpp"
-#include "include\DirectX\cDXLine.hpp"
+#include "DirectX/cDXFont.hpp"
+#include "DirectX/cDXLine.hpp"
 
 class cDirectX final {
 	public:

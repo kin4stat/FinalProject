@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cWorld.hpp"
+#include "SA/cWorld.hpp"
 
 auto cWorld::add(class cEntity *pEntity) -> void {
 	reinterpret_cast<void(__cdecl *)(class cEntity *pEntity)>(0x563220)(pEntity);

@@ -12,12 +12,12 @@
 
 #pragma once
 
-#include "include\Vector\cVector3D.hpp"
-#include "include\SA\cPlaceable.hpp"
-#include "include\SA\cCam.hpp"
-#include "include\SA\cCamTweak.hpp"
-#include "include\SA\cMatrix.hpp"
-#include "include\SA\cQueuedMode.hpp"
+#include "Vector/cVector3D.hpp"
+#include "SA/cPlaceable.hpp"
+#include "SA/cCam.hpp"
+#include "SA/cCamTweak.hpp"
+#include "SA/cMatrix.hpp"
+#include "SA/cQueuedMode.hpp"
 
 class cCamera final {
 	public:

@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\MP\RakNet\cRakClientManager.hpp"
+#include "MP/RakNet\cRakClientManager.hpp"
 
 cRakClientManager::cRakClientManager(class cMP *pMP) {
 	this->pMP = pMP;

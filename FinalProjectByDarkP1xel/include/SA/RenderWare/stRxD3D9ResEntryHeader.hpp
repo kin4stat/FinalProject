@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\SA\RenderWare\stRxD3D9VertexStream.hpp"
+#include "SA/RenderWare\stRxD3D9VertexStream.hpp"
 
 struct stRxD3D9ResEntryHeader final {
 	unsigned __int32 ui32SerialNumber{0};

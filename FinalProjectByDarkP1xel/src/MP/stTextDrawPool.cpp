@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\MP\stTextDrawPool.hpp"
+#include "MP/stTextDrawPool.hpp"
 
 auto stTextDrawPool::forAllTextDraws(bool(__cdecl *pFunc)(const unsigned __int16 ui16TextDrawID, struct stTextDraw *pTextDraw)) -> void {
 	for (unsigned __int16 ui16TextDrawID{0}; ui16TextDrawID < 2304; ++ui16TextDrawID) {

@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\MP\st3DText.hpp"
+#include "MP/st3DText.hpp"
 
 struct st3DTextPool final {
 	struct st3DText text3D[2048]{};

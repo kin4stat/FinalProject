@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cPed.hpp"	  
+#include "SA/cPed.hpp"	  
 
 auto cPed::getWeapon(const unsigned __int8 ui8WeaponSlot) const -> class cWeapon * {
 	return reinterpret_cast<class cWeapon *>(reinterpret_cast<const unsigned __int32>(this) + 0x5A0 + (ui8WeaponSlot * 0x1C));

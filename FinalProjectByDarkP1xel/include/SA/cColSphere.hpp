@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\SA\cSphere.hpp"
+#include "SA/cSphere.hpp"
 
 class cColSphere final {
 	public:

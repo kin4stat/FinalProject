@@ -12,12 +12,12 @@
 
 #pragma once
 
-#include "include\Vector\cVector3D.hpp"
-#include "include\SA\cPhysical.hpp"
-#include "include\SA\cWeapon.hpp"
-#include "include\SA\cPedIntelligence.hpp"
-#include "include\SA\cVehicle.hpp"
-#include "include\SA\cEntity.hpp"
+#include "Vector/cVector3D.hpp"
+#include "SA/cPhysical.hpp"
+#include "SA/cWeapon.hpp"
+#include "SA/cPedIntelligence.hpp"
+#include "SA/cVehicle.hpp"
+#include "SA/cEntity.hpp"
 
 class cPed final {
 	public:

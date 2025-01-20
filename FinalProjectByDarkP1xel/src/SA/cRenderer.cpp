@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cRenderer.hpp"
+#include "SA/cRenderer.hpp"
 
 auto cRenderer::requestObjectsInDirection(const class cVector3D *pPos, const float fAngle) -> void {
 	reinterpret_cast<void(__cdecl *)(const class cVector3D *pPos, const float fAngle)>(0x555CB0)(pPos, fAngle);

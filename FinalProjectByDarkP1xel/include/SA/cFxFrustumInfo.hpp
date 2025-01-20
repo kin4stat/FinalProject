@@ -12,8 +12,8 @@
 
 #pragma once
 
-#include "include\SA\cFxSphere.hpp"
-#include "include\SA\cFxPlane.hpp"
+#include "SA/cFxSphere.hpp"
+#include "SA/cFxPlane.hpp"
 
 class cFxFrustumInfo final {
 	public:

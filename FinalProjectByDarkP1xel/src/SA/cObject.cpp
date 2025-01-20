@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cObject.hpp"
+#include "SA/cObject.hpp"
 
 auto cObject::deleteAllTempObjects(void) -> void {
 	reinterpret_cast<void(__cdecl *)(void)>(0x5A18B0)();

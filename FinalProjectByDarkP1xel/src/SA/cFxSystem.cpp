@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cFxSystem.hpp"
+#include "SA/cFxSystem.hpp"
 
 auto cFxSystem::addParticle(const class cVector3D *pPos, const class cVector3D *pVelocity, const float fUnk1, const class cFxPrtMult *pPrtMult, const float fUnk2, const float fBrightness, const float fBrightnessMin, const unsigned __int8 ui8Unk3) -> void {
 	reinterpret_cast<void(__thiscall *)(class cFxSystem *pThis, const class cVector3D *pPos, const class cVector3D *pVelocity, const float fUnk1, const class cFxPrtMult *pPrtMult, const float fUnk2, const float fBrightness, const float fBrightnessMin, const unsigned __int8 ui8Unk3)>(0x4AA440)(this, pPos, pVelocity, fUnk1, pPrtMult, fUnk2, fBrightness, fBrightnessMin, ui8Unk3);

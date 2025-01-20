@@ -12,8 +12,8 @@
 
 #pragma once
 
-#include "include\Vector\cVector2D.hpp"
-#include "include\SA\cSprite2D.hpp"
+#include "Vector/cVector2D.hpp"
+#include "SA/cSprite2D.hpp"
 
 class cMenuManager final {
 	public:

@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\Vector\cVector3D.hpp"
+#include "Vector/cVector3D.hpp"
 
 cVector3D::cVector3D(void) {
 	return;

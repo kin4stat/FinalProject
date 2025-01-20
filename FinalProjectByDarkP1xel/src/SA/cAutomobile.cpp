@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cAutomobile.hpp"
+#include "SA/cAutomobile.hpp"
 
 auto cAutomobile::getDamageManager(void) const -> class cDamageManager * {
 	return reinterpret_cast<class cDamageManager *>(reinterpret_cast<const unsigned __int32>(this) + 0x5A0);

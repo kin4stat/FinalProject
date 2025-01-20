@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "include\MP\stWeaponSlot.hpp"
+#include "MP/stWeaponSlot.hpp"
 
 struct stWeaponUpdate final {
 	unsigned __int16 ui16TargerPlayerID{0};

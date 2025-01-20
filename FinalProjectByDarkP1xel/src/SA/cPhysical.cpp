@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cPhysical.hpp"
+#include "SA/cPhysical.hpp"
 
 auto cPhysical::applySpeed(void) -> void {
 	reinterpret_cast<void(__thiscall *)(class cPhysical *pThis)>(0x547B80)(this);

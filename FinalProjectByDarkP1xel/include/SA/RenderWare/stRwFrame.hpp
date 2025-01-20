@@ -12,10 +12,10 @@
 
 #pragma once
 
-#include "include\SA\RenderWare\stRwObject.hpp"
-#include "include\SA\RenderWare\stRwLLLink.hpp"
-#include "include\SA\RenderWare\stRwMatrix.hpp"
-#include "include\SA\RenderWare\stRwLinkList.hpp"
+#include "SA/RenderWare\stRwObject.hpp"
+#include "SA/RenderWare\stRwLLLink.hpp"
+#include "SA/RenderWare\stRwMatrix.hpp"
+#include "SA/RenderWare\stRwLinkList.hpp"
 
 struct stRwFrame final {
 	struct stRwObject rwObject {};

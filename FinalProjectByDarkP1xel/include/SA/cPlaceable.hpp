@@ -12,8 +12,8 @@
 
 #pragma once
 
-#include "include\Vector\cVector4D.hpp"
-#include "include\SA\cMatrixLink.hpp"
+#include "Vector/cVector4D.hpp"
+#include "SA/cMatrixLink.hpp"
 
 class cPlaceable final {
 	public:

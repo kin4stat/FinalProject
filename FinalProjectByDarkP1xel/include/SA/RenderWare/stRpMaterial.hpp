@@ -12,9 +12,9 @@
 
 #pragma once
 
-#include "include\SA\RenderWare\stRwTexture.hpp"
-#include "include\SA\RenderWare\stRwRGBA.hpp"
-#include "include\SA\RenderWare\stRwSurfaceProperties.hpp"
+#include "SA/RenderWare\stRwTexture.hpp"
+#include "SA/RenderWare\stRwRGBA.hpp"
+#include "SA/RenderWare\stRwSurfaceProperties.hpp"
 
 struct stRpMaterial final {
 	struct stRwTexture *pRwTexture{nullptr};

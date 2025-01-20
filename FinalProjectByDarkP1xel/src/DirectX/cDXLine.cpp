@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\DirectX\cDXLine.hpp"
+#include "DirectX/cDXLine.hpp"
 
 cDXLine::cDXLine(class cWinAPIFuncs *pWinAPIFuncs) {
 	this->pWinAPIFuncs = pWinAPIFuncs;

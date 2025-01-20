@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cPool.hpp"
+#include "SA/cPool.hpp"
 
 auto cPool<class cPed>::forAllPeds(bool(__cdecl *pFunc)(class cPed *pPed)) const -> void {
 	__int32 i32PoolSize{this->i32Size};

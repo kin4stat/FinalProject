@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cRadar.hpp"
+#include "SA/cRadar.hpp"
 
 auto cRadar::removeRadarSections(void) -> void {
 	reinterpret_cast<void(__cdecl *)(void)>(0x584BF0)();

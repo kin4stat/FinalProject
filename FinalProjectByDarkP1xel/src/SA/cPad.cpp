@@ -7,7 +7,7 @@
 //  Copyright (C) 2021 BlastHack Team <BlastHack.Net>. All rights reserved.
 //
 
-#include "include\SA\cPad.hpp"
+#include "SA/cPad.hpp"
 
 auto cPad::updatePads(void) -> void {
 	reinterpret_cast<void(__thiscall *)(class cPad *pThis)>(0x541DD0)(this);
