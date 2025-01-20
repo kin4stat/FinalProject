@@ -18,11 +18,11 @@ class cBike final {
 	public:
 	class cVehicle Vehicle {};
 
-	explicit cBike::cBike(void) = default;
-	auto cBike::fix(void) -> void;
-	auto cBike::teleport(const class cVector3D *pPos, const bool bResetAngle) -> void;
-	auto cBike::getComponentWorldPosition(const unsigned __int32 ui32ComponentID, class cVector3D *pResult) -> void;
-	cBike::~cBike(void) = default;
+	explicit cBike(void) = default;
+	auto fix(void) -> void;
+	auto teleport(const class cVector3D *pPos, const bool bResetAngle) -> void;
+	auto getComponentWorldPosition(const unsigned __int32 ui32ComponentID, class cVector3D *pResult) -> void;
+	~cBike(void) = default;
 
 	private:
 };

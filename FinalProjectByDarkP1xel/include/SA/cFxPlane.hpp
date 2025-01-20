@@ -19,8 +19,8 @@ class cFxPlane final {
 	class cVector3D vecNormal {};
 	float fDistance{0};
 
-	explicit cFxPlane::cFxPlane(void) = default;
-	cFxPlane::~cFxPlane(void) = default;
+	explicit cFxPlane(void) = default;
+	~cFxPlane(void) = default;
 
 	private:
 };

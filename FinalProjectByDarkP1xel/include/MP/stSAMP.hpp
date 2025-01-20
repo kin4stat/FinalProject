@@ -41,11 +41,11 @@ struct stSAMP037R1 final {
 	class cRakClient *pRakClientInterface{nullptr};
 	struct stSAMPPools037R1 *pPools{nullptr};
 
-	explicit stSAMP037R1::stSAMP037R1(void) = delete;
-	auto stSAMP037R1::restartGame(void) -> void;
-	auto stSAMP037R1::reAllocPools1(void) -> void;
-	auto stSAMP037R1::reAllocPools2(void) -> void;
-	stSAMP037R1::~stSAMP037R1(void) = delete;
+	explicit stSAMP037R1(void) = delete;
+	auto restartGame(void) -> void;
+	auto reAllocPools1(void) -> void;
+	auto reAllocPools2(void) -> void;
+	~stSAMP037R1(void) = delete;
 };
 
 struct stSAMP037R3 final {
@@ -74,11 +74,11 @@ struct stSAMP037R3 final {
 	__int8 i8Unk2[5];
 	struct stSAMPPools037R3 *pPools{nullptr};
 
-	explicit stSAMP037R3::stSAMP037R3(void) = delete;
-	auto stSAMP037R3::restartGame(void) -> void;
-	auto stSAMP037R3::reAllocPools1(void) -> void;
-	auto stSAMP037R3::reAllocPools2(void) -> void;
-	stSAMP037R3::~stSAMP037R3(void) = delete;
+	explicit stSAMP037R3(void) = delete;
+	auto restartGame(void) -> void;
+	auto reAllocPools1(void) -> void;
+	auto reAllocPools2(void) -> void;
+	~stSAMP037R3(void) = delete;
 
 };
 

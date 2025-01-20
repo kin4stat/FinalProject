@@ -17,9 +17,9 @@ class cVector2D {
 	float fX{0};
 	float fY{0};
 
-	explicit cVector2D::cVector2D(void);
-	explicit cVector2D::cVector2D(const float fX, const float fY);
-	cVector2D::~cVector2D(void);
+	explicit cVector2D(void);
+	explicit cVector2D(const float fX, const float fY);
+	~cVector2D(void);
 
 	private:
 };

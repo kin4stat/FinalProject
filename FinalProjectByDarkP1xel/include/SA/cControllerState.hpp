@@ -45,8 +45,8 @@ class cControllerState final {
 	__int16 i16VehicleMouseLook{0};
 	__int16 i16RadioTrackSkip{0};
 
-	explicit cControllerState::cControllerState(void) = default;
-	cControllerState::~cControllerState(void) = default;
+	explicit cControllerState(void) = default;
+	~cControllerState(void) = default;
 
 	private:
 };

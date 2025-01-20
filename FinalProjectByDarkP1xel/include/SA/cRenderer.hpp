@@ -14,10 +14,10 @@
 
 class cRenderer final {
 	public:
-	explicit cRenderer::cRenderer(void) = delete;
-	cRenderer::~cRenderer(void) = delete;
+	explicit cRenderer(void) = delete;
+	~cRenderer(void) = delete;
 
-	static auto cRenderer::requestObjectsInDirection(const class cVector3D *pPos, const float fAngle = 0) -> void;
+	static auto requestObjectsInDirection(const class cVector3D *pPos, const float fAngle = 0) -> void;
 
 	private:
 };

@@ -24,8 +24,8 @@ class cStreamingInfo final {
 	unsigned __int8 ui8LoadState{0};
 	__int8 i8Pad[3];
 
-	explicit cStreamingInfo::cStreamingInfo(void) = delete;
-	cStreamingInfo::~cStreamingInfo(void) = delete;
+	explicit cStreamingInfo(void) = delete;
+	~cStreamingInfo(void) = delete;
 
 	private:
 };

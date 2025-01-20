@@ -21,8 +21,8 @@ class cMatrixLink final {
 	class cMatrixLink *pPrev{nullptr};
 	class cMatrixLink *pNext{nullptr};
 
-	explicit cMatrixLink::cMatrixLink(void) = default;
-	cMatrixLink::~cMatrixLink(void) = default;
+	explicit cMatrixLink(void) = default;
+	~cMatrixLink(void) = default;
 
 	private:
 };

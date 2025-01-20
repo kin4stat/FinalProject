@@ -18,9 +18,9 @@ class cVector4D final : public cVector3D {
 	public:
 	float fU{0};
 
-	explicit cVector4D::cVector4D(void);
-	explicit cVector4D::cVector4D(const float fX, const float fY, const float fZ, const float fU);
-	cVector4D::~cVector4D(void);
+	explicit cVector4D(void);
+	explicit cVector4D(const float fX, const float fY, const float fZ, const float fU);
+	~cVector4D(void);
 
 	private:
 };

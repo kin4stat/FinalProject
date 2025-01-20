@@ -25,9 +25,9 @@ class cTrailer final {
 	float fField_9EC{0};
 	float fField_9F0{0};
 
-	explicit cTrailer::cTrailer(void) = delete;
-	auto cTrailer::setTowLink(const class cVehicle *pVehicle, const bool bUnk) -> bool;
-	cTrailer::~cTrailer(void) = delete;
+	explicit cTrailer(void) = delete;
+	auto setTowLink(const class cVehicle *pVehicle, const bool bUnk) -> bool;
+	~cTrailer(void) = delete;
 
 	private:
 };

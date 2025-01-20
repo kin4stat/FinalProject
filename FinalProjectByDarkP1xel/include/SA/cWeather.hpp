@@ -14,10 +14,10 @@
 
 class cWeather final {
 	public:
-	explicit cWeather::cWeather(void) = delete;
-	cWeather::~cWeather(void) = delete;
+	explicit cWeather(void) = delete;
+	~cWeather(void) = delete;
 
-	static auto cWeather::forceWeatherNow(const __int16 i16WeatherID) -> void;
+	static auto forceWeatherNow(const __int16 i16WeatherID) -> void;
 
 	private:
 };

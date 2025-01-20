@@ -32,9 +32,9 @@ class cFxManager final {
 	class cFxMemoryPool fxMemoryPool {};
 	__int8 i8Pad[4];
 
-	explicit cFxManager::cFxManager(void) = delete;
-	auto cFxManager::createFxSystem(const char *pName, class cVector3D *pPoint, const struct stRwMatrix *pRwMatrix, const bool bIgnoreBoundingChecks) -> class cFxSystem *;
-	cFxManager::~cFxManager(void) = delete;
+	explicit cFxManager(void) = delete;
+	auto createFxSystem(const char *pName, class cVector3D *pPoint, const struct stRwMatrix *pRwMatrix, const bool bIgnoreBoundingChecks) -> class cFxSystem *;
+	~cFxManager(void) = delete;
 
 	private:
 };

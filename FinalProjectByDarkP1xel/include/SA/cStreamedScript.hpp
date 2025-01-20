@@ -21,8 +21,8 @@ class cStreamedScript final {
 	char cName[20];
 	__int32 i32Size{0};
 
-	explicit cStreamedScript::cStreamedScript(void) = default;
-	cStreamedScript::~cStreamedScript(void) = default;
+	explicit cStreamedScript(void) = default;
+	~cStreamedScript(void) = default;
 
 	private:
 };

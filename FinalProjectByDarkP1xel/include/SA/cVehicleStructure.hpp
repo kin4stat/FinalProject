@@ -23,8 +23,8 @@ class cVehicleStructure final {
 	__int8 i8Pad[3];
 	unsigned __int32 ui32MaskComponentsDamagable{0};
 
-	explicit cVehicleStructure::cVehicleStructure(void) = delete;
-	cVehicleStructure::~cVehicleStructure(void) = delete;
+	explicit cVehicleStructure(void) = delete;
+	~cVehicleStructure(void) = delete;
 
 	private:
 };

@@ -20,8 +20,8 @@ class cFxSphere final {
 	float fRadius{0};
 	unsigned __int32 ui32NumPlanesPassed{0};
 
-	explicit cFxSphere::cFxSphere(void) = default;
-	cFxSphere::~cFxSphere(void) = default;
+	explicit cFxSphere(void) = default;
+	~cFxSphere(void) = default;
 
 	private:
 };

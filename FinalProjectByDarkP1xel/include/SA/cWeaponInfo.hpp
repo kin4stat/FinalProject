@@ -66,8 +66,8 @@ class cWeaponInfo final {
 	unsigned __int8 ui8BaseCombo{0};
 	unsigned __int8 ui8NumCombos{0};
 
-	explicit cWeaponInfo::cWeaponInfo(void) = delete;
-	cWeaponInfo::~cWeaponInfo(void) = delete;
+	explicit cWeaponInfo(void) = delete;
+	~cWeaponInfo(void) = delete;
 
 	private:
 };

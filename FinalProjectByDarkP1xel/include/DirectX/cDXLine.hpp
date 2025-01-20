@@ -23,11 +23,11 @@ class cDXLine final {
 		eNameTags
 	};
 
-	explicit cDXLine::cDXLine(class cWinAPIFuncs *pWinAPIFuncs);
-	auto cDXLine::createLine(IDirect3DDevice9 *pDeviceInterface, const cDXLine::eLineType lineType)->ID3DXLine *;
-	auto cDXLine::getLineInterface(const cDXLine::eLineType lineType) const->ID3DXLine *;
-	auto cDXLine::drawLine(const cDXLine::eLineType lineType, const class cVector2D *vecFrom, const class cVector2D *vecTo, const D3DCOLOR d3dColor) const -> void;
-	cDXLine::~cDXLine(void);
+	explicit cDXLine(class cWinAPIFuncs *pWinAPIFuncs);
+	auto createLine(IDirect3DDevice9 *pDeviceInterface, const cDXLine::eLineType lineType)->ID3DXLine *;
+	auto getLineInterface(const cDXLine::eLineType lineType) const->ID3DXLine *;
+	auto drawLine(const cDXLine::eLineType lineType, const class cVector2D *vecFrom, const class cVector2D *vecTo, const D3DCOLOR d3dColor) const -> void;
+	~cDXLine(void);
 
 	private:
 	class cWinAPIFuncs *pWinAPIFuncs{nullptr};

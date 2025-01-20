@@ -56,8 +56,8 @@ class cVehicleModelInfo final {
 	__int16 i16Pad302{0};
 	class cAnimBlock *pAnimBlock{nullptr};
 
-	explicit cVehicleModelInfo::cVehicleModelInfo(void) = default;
-	cVehicleModelInfo::~cVehicleModelInfo(void) = default;
+	explicit cVehicleModelInfo(void) = default;
+	~cVehicleModelInfo(void) = default;
 
 	private:
 };

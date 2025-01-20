@@ -14,12 +14,12 @@
 
 class cD3DResourceSystem final {
 	public:
-	explicit cD3DResourceSystem::cD3DResourceSystem(void) = delete;
-	cD3DResourceSystem::~cD3DResourceSystem(void) = delete;
+	explicit cD3DResourceSystem(void) = delete;
+	~cD3DResourceSystem(void) = delete;
 
-	static auto cD3DResourceSystem::cancelBuffering(void) -> void;
-	static auto cD3DResourceSystem::tidyUpD3DTextures(const unsigned __int32 ui32Count = 100) -> void;
-	static auto cD3DResourceSystem::tidyUpD3DIndexBuffers(const unsigned __int32 ui32Count = 200) -> void;
+	static auto cancelBuffering(void) -> void;
+	static auto tidyUpD3DTextures(const unsigned __int32 ui32Count = 100) -> void;
+	static auto tidyUpD3DIndexBuffers(const unsigned __int32 ui32Count = 200) -> void;
 
 	private:
 };

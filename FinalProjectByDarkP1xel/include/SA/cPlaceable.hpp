@@ -21,14 +21,14 @@ class cPlaceable final {
 	class cVector4D qPlacement {};
 	class cMatrixLink *pMatrix{nullptr};
 
-	explicit cPlaceable::cPlaceable(void) = default;
-	auto cPlaceable::getMatrix(void) -> class cMatrixLink *;
-	auto cPlaceable::getPosition(void) -> class cVector3D *;
-	auto cPlaceable::setPosition(const class cVector3D *pPos) -> void;
-	auto cPlaceable::getHeading(void) -> float;
-	auto cPlaceable::setHeading(const float fHeading) -> void;
-	auto cPlaceable::setOrientation(const class cVector3D *pOrin) -> void;
-	cPlaceable::~cPlaceable(void) = default;
+	explicit cPlaceable(void) = default;
+	auto getMatrix(void) -> class cMatrixLink *;
+	auto getPosition(void) -> class cVector3D *;
+	auto setPosition(const class cVector3D *pPos) -> void;
+	auto getHeading(void) -> float;
+	auto setHeading(const float fHeading) -> void;
+	auto setOrientation(const class cVector3D *pOrin) -> void;
+	~cPlaceable(void) = default;
 
 	private:
 };

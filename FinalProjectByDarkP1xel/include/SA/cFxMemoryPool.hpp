@@ -18,8 +18,8 @@ class cFxMemoryPool final {
 	unsigned __int32 ui32Size{0};
 	unsigned __int32 ui32Position{0};
 
-	explicit cFxMemoryPool::cFxMemoryPool(void) = default;
-	cFxMemoryPool::~cFxMemoryPool(void) = default;
+	explicit cFxMemoryPool(void) = default;
+	~cFxMemoryPool(void) = default;
 
 	private:
 };

@@ -78,9 +78,9 @@ class cAERadioTrackManager final {
 	__int8 i8Field_36C{0};
 	__int8 i8Field_36D[3];
 
-	explicit cAERadioTrackManager::cAERadioTrackManager(void) = delete;
-	auto cAERadioTrackManager::stopRadio(class cVehicleAudioSettings *pVehAudSettings, const bool bUnk) -> bool;
-	cAERadioTrackManager::~cAERadioTrackManager(void) = delete;
+	explicit cAERadioTrackManager(void) = delete;
+	auto stopRadio(class cVehicleAudioSettings *pVehAudSettings, const bool bUnk) -> bool;
+	~cAERadioTrackManager(void) = delete;
 
 	private:
 };

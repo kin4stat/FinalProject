@@ -26,8 +26,8 @@ class cDirectionArrow final {
 	unsigned __int32 ui32Blue{0};
 	unsigned __int32 ui32Alpha{0};
 
-	explicit cDirectionArrow::cDirectionArrow(void) = delete;
-	cDirectionArrow::~cDirectionArrow(void) = delete;
+	explicit cDirectionArrow(void) = delete;
+	~cDirectionArrow(void) = delete;
 
 	private:
 };

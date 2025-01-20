@@ -20,8 +20,8 @@ class cUpgradePosnDesc final {
 	class cVector4D vecRotation {};
 	__int32 i32ParentComponentID{0};
 
-	explicit cUpgradePosnDesc::cUpgradePosnDesc(void) = default;
-	cUpgradePosnDesc::~cUpgradePosnDesc(void) = default;
+	explicit cUpgradePosnDesc(void) = default;
+	~cUpgradePosnDesc(void) = default;
 
 	private:
 };

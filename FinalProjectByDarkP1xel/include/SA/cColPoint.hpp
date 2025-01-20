@@ -32,8 +32,8 @@ class cColPoint final {
 	__int8 i8Pad2{0};
 	float fDepth{0};
 
-	explicit cColPoint::cColPoint(void) = default;
-	cColPoint::~cColPoint(void) = default;
+	explicit cColPoint(void) = default;
+	~cColPoint(void) = default;
 
 	private:
 };

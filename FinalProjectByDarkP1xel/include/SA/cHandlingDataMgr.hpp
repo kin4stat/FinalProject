@@ -26,10 +26,10 @@ class cHandlingDataMgr final {
 	// class cFlyingHandlingData flyingHandling[24];
 	// class cBoatHandlingData boatHandling[12];
 
-	explicit cHandlingDataMgr::cHandlingDataMgr(void) = default;
-	auto cHandlingDataMgr::convertDataToWorldUnits(const class cAutoHandlingData *pAutoHandling) -> void;
-	auto cHandlingDataMgr::makeElegyDriftMode(const unsigned __int32 ui32Status) -> void;
-	cHandlingDataMgr::~cHandlingDataMgr(void) = default;
+	explicit cHandlingDataMgr(void) = default;
+	auto convertDataToWorldUnits(const class cAutoHandlingData *pAutoHandling) -> void;
+	auto makeElegyDriftMode(const unsigned __int32 ui32Status) -> void;
+	~cHandlingDataMgr(void) = default;
 
 	private:
 };

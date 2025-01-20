@@ -21,10 +21,10 @@ class cStreamedScripts final {
 	__int16 i16CountOfScripts{0};
 	__int16 i16Field_A46{0};
 
-	explicit cStreamedScripts::cStreamedScripts(void) = delete;
-	cStreamedScripts::~cStreamedScripts(void) = delete;
+	explicit cStreamedScripts(void) = delete;
+	~cStreamedScripts(void) = delete;
 
-	static auto cStreamedScripts::reInit(void) -> void;
+	static auto reInit(void) -> void;
 
 	private:
 };

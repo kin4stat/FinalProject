@@ -55,9 +55,9 @@ struct stLocalPlayer037R1 final {
 	struct stSpectating Spectating {};
 	struct stDamageData vehicleDamageData {};
 
-	explicit stLocalPlayer037R1::stLocalPlayer037R1(void) = delete;
-	auto stLocalPlayer037R1::spawn(void) -> void;
-	stLocalPlayer037R1::~stLocalPlayer037R1(void) = delete;
+	explicit stLocalPlayer037R1(void) = delete;
+	auto spawn(void) -> void;
+	~stLocalPlayer037R1(void) = delete;
 };
 
 struct stLocalPlayer037R3 final {
@@ -101,9 +101,9 @@ struct stLocalPlayer037R3 final {
 	struct stSpectating Spectating {};
 	struct stDamageData vehicleDamageData {};
 
-	explicit stLocalPlayer037R3::stLocalPlayer037R3(void) = delete;
-	auto stLocalPlayer037R3::spawn(void) -> void;
-	stLocalPlayer037R3::~stLocalPlayer037R3(void) = delete;
+	explicit stLocalPlayer037R3(void) = delete;
+	auto spawn(void) -> void;
+	~stLocalPlayer037R3(void) = delete;
 };
 
 #endif

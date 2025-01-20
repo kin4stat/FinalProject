@@ -14,15 +14,15 @@
 
 class cRadar final {
 	public:
-	explicit cRadar::cRadar(void) = delete;
-	cRadar::~cRadar(void) = delete;
+	explicit cRadar(void) = delete;
+	~cRadar(void) = delete;
 
-	static auto cRadar::removeRadarSections(void) -> void;
-	static auto cRadar::limitToMap(float *pX, float *pY) -> void;
-	static auto cRadar::limitRadarPoint(class cVector2D *pOut) -> long double;
-	static auto cRadar::transformRadarPointToRealWorldSpace(class cVector2D *pOut, const class cVector2D *pIn) -> void;
-	static auto cRadar::transformRadarPointToScreenSpace(class cVector2D *pOut, const class cVector2D *pIn) -> void;
-	static auto cRadar::transformRealWorldPointToRadarSpace(class cVector2D *pOut, const class cVector2D *pIn) -> void;
+	static auto removeRadarSections(void) -> void;
+	static auto limitToMap(float *pX, float *pY) -> void;
+	static auto limitRadarPoint(class cVector2D *pOut) -> long double;
+	static auto transformRadarPointToRealWorldSpace(class cVector2D *pOut, const class cVector2D *pIn) -> void;
+	static auto transformRadarPointToScreenSpace(class cVector2D *pOut, const class cVector2D *pIn) -> void;
+	static auto transformRealWorldPointToRadarSpace(class cVector2D *pOut, const class cVector2D *pIn) -> void;
 
 	private:
 };

@@ -19,8 +19,8 @@ class cBox final {
 	class cVector3D vecMin {};
 	class cVector3D vecMax {};
 
-	explicit cBox::cBox(void) = default;
-	cBox::~cBox(void) = default;
+	explicit cBox(void) = default;
+	~cBox(void) = default;
 
 	private:
 };

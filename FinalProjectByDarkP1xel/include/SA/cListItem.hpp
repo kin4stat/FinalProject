@@ -17,8 +17,8 @@ class cListItem final {
 	class cListItem *pNext{nullptr};
 	class cListItem *pPrev{nullptr};
 
-	explicit cListItem::cListItem(void) = default;
-	cListItem::~cListItem(void) = default;
+	explicit cListItem(void) = default;
+	~cListItem(void) = default;
 
 	private:
 };

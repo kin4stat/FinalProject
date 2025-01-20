@@ -45,9 +45,9 @@ struct stChatInfo final {
 	__int32 i32TimeStampWidth{0};
 	__int32 i32TimeStampTextOffset{0};
 
-	explicit stChatInfo::stChatInfo(void) = delete;
-	auto stChatInfo::addColorMessage(const unsigned long ulColor, const char *pText) -> void;
-	stChatInfo::~stChatInfo(void) = delete;
+	explicit stChatInfo(void) = delete;
+	auto addColorMessage(const unsigned long ulColor, const char *pText) -> void;
+	~stChatInfo(void) = delete;
 };
 
 #endif

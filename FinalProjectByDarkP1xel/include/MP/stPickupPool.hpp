@@ -22,9 +22,9 @@ struct stPickupPool final {
 	unsigned __int8 ui8Unk[4096 * 3];
 	struct stPickup pickup[4096]{};
 
-	explicit stPickupPool::stPickupPool(void) = delete;
-	auto stPickupPool::forAllPickups(bool(__cdecl *pFunc)(const unsigned __int16 ui16PickupID, struct stPickup *pPickUp)) -> void;
-	stPickupPool::~stPickupPool(void) = delete;
+	explicit stPickupPool(void) = delete;
+	auto forAllPickups(bool(__cdecl *pFunc)(const unsigned __int16 ui16PickupID, struct stPickup *pPickUp)) -> void;
+	~stPickupPool(void) = delete;
 };
 
 #endif

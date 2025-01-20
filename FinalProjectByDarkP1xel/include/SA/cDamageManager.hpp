@@ -48,10 +48,10 @@ class cDamageManager final {
 	unsigned __int32 ui32LeftRearLightStatus : 2;
 	unsigned __int32 ui32PanelsStatus{0};
 
-	explicit cDamageManager::cDamageManager(void) = default;
-	auto cDamageManager::setLightStatus(const cDamageManager::eLights Light, const bool bStatus) -> void;
-	auto cDamageManager::setPanelStatus(const cDamageManager::ePanels Panel, const bool bStatus) -> void;
-	cDamageManager::~cDamageManager(void) = default;
+	explicit cDamageManager(void) = default;
+	auto setLightStatus(const cDamageManager::eLights Light, const bool bStatus) -> void;
+	auto setPanelStatus(const cDamageManager::ePanels Panel, const bool bStatus) -> void;
+	~cDamageManager(void) = default;
 
 	private:
 };

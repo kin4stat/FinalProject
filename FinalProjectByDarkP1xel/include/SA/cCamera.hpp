@@ -293,12 +293,12 @@ class cCamera final {
 	__int32 i32Field_D70{0};
 	__int32 i32Field_D74{0};
 
-	explicit cCamera::cCamera(void) = delete;
-	auto cCamera::restoreWithJumpCut(void) -> void;
-	auto cCamera::setFadeColour(const unsigned __int8 ui8R, const unsigned __int8 ui8G, const unsigned __int8 ui8B) -> void;
-	auto cCamera::fade(const float fDuration, const unsigned __int16 ui16InOut) -> void;
-	auto cCamera::find3rdPersonCamTargetVector(const float fRange, const class cVector3D *pSource, class cVector3D *pCamera, class cVector3D *pPoint) -> void;
-	cCamera::~cCamera(void) = delete;
+	explicit cCamera(void) = delete;
+	auto restoreWithJumpCut(void) -> void;
+	auto setFadeColour(const unsigned __int8 ui8R, const unsigned __int8 ui8G, const unsigned __int8 ui8B) -> void;
+	auto fade(const float fDuration, const unsigned __int16 ui16InOut) -> void;
+	auto find3rdPersonCamTargetVector(const float fRange, const class cVector3D *pSource, class cVector3D *pCamera, class cVector3D *pPoint) -> void;
+	~cCamera(void) = delete;
 
 	private:
 };

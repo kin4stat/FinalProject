@@ -200,9 +200,9 @@ class cMenuManager final {
 	__int32 i32Field_1B70{0};
 	__int32 i32Field_1B74{0};
 
-	explicit cMenuManager::cMenuManager(void) = delete;
-	auto cMenuManager::checkForMenuClosing(void) -> void;
-	cMenuManager::~cMenuManager(void) = delete;
+	explicit cMenuManager(void) = delete;
+	auto checkForMenuClosing(void) -> void;
+	~cMenuManager(void) = delete;
 
 	private:
 };

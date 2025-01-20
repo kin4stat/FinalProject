@@ -18,8 +18,8 @@ class cList final {
 	class cListItem *pFirst{nullptr};
 	__int32 i32Count{0};
 
-	explicit cList::cList(void) = default;
-	cList::~cList(void) = default;
+	explicit cList(void) = default;
+	~cList(void) = default;
 
 	private:
 };

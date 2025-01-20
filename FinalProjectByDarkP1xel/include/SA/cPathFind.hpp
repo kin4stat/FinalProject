@@ -44,10 +44,10 @@ class cPathFind final {
 	float fForbiddenForScrCarsY1{0};
 	float fForbiddenForScrCarsY2{0};
 
-	explicit cPathFind::cPathFind(void) = delete;
-	auto cPathFind::findNodeClosestToCoors(class cNodeAddress *pPathLink, const class cVector3D *pPos, const unsigned __int16 ui16NodeType, const float fMaxDistance, const bool bBoatsOnly) -> void;
-	auto cPathFind::findNodeCoorsForScript(class cVector3D *pPos, class cNodeAddress *pNodeAddress, bool *bResult = nullptr) -> void;
-	cPathFind::~cPathFind(void) = delete;
+	explicit cPathFind(void) = delete;
+	auto findNodeClosestToCoors(class cNodeAddress *pPathLink, const class cVector3D *pPos, const unsigned __int16 ui16NodeType, const float fMaxDistance, const bool bBoatsOnly) -> void;
+	auto findNodeCoorsForScript(class cVector3D *pPos, class cNodeAddress *pNodeAddress, bool *bResult = nullptr) -> void;
+	~cPathFind(void) = delete;
 
 	private:
 };

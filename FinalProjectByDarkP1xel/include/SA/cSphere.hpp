@@ -19,8 +19,8 @@ class cSphere final {
 	class cVector3D vecCenter {};
 	float fRadius{0};
 
-	explicit cSphere::cSphere(void) = default;
-	cSphere::~cSphere(void) = default;
+	explicit cSphere(void) = default;
+	~cSphere(void) = default;
 
 	private:
 };

@@ -93,26 +93,26 @@ class cVehicle final {
 		unsigned __int8 bUsedForReplay : 1;
 	} VehFlags{};
 
-	explicit cVehicle::cVehicle(void) = default;
-	auto cVehicle::getDriver(void) const -> class cPed *;
-	auto cVehicle::getTractor(void) const -> class cAutomobile *;
-	auto cVehicle::getTrailer(void) const -> class cTrailer *;
-	auto cVehicle::getHealth(void) const -> float;
-	auto cVehicle::setHealth(const float fHealth) -> void;
-	auto cVehicle::setEngineState(const bool bState) -> void;
-	auto cVehicle::getInterior(void) const -> unsigned __int8;
-	auto cVehicle::setInterior(const unsigned __int8 ui8Interior) -> void;
-	auto cVehicle::getColor(const unsigned __int8 *pPrimary, const unsigned __int8 *pSecondary = nullptr, const unsigned __int8 *pTertiary = nullptr, const unsigned __int8 *pQuaternary = nullptr) const -> void;
-	auto cVehicle::setColor(const unsigned __int8 *pPrimary, const unsigned __int8 *pSecondary = nullptr, const unsigned __int8 *pTertiary = nullptr, const unsigned __int8 *pQuaternary = nullptr) -> void;
-	auto cVehicle::getClass(void) const -> unsigned __int32;
-	auto cVehicle::getSubClass(void) const -> unsigned __int32;
-	auto cVehicle::getDoorsStatus(void) const->cVehicle::eVehDoors;
-	auto cVehicle::getHandlingData(void) const -> class cAutoHandlingData *;
-	auto cVehicle::setModelIndex(const unsigned __int32 ui32ModelID) -> void;
-	auto cVehicle::setRemap(const __int32 i32RemapID) -> void;
-	auto cVehicle::setRemapTexDictionary(const __int32 i32RemapID) -> void;
-	auto cVehicle::isEmpty(void) const -> bool;
-	cVehicle::~cVehicle(void) = default;
+	explicit cVehicle(void) = default;
+	auto getDriver(void) const -> class cPed *;
+	auto getTractor(void) const -> class cAutomobile *;
+	auto getTrailer(void) const -> class cTrailer *;
+	auto getHealth(void) const -> float;
+	auto setHealth(const float fHealth) -> void;
+	auto setEngineState(const bool bState) -> void;
+	auto getInterior(void) const -> unsigned __int8;
+	auto setInterior(const unsigned __int8 ui8Interior) -> void;
+	auto getColor(const unsigned __int8 *pPrimary, const unsigned __int8 *pSecondary = nullptr, const unsigned __int8 *pTertiary = nullptr, const unsigned __int8 *pQuaternary = nullptr) const -> void;
+	auto setColor(const unsigned __int8 *pPrimary, const unsigned __int8 *pSecondary = nullptr, const unsigned __int8 *pTertiary = nullptr, const unsigned __int8 *pQuaternary = nullptr) -> void;
+	auto getClass(void) const -> unsigned __int32;
+	auto getSubClass(void) const -> unsigned __int32;
+	auto getDoorsStatus(void) const->cVehicle::eVehDoors;
+	auto getHandlingData(void) const -> class cAutoHandlingData *;
+	auto setModelIndex(const unsigned __int32 ui32ModelID) -> void;
+	auto setRemap(const __int32 i32RemapID) -> void;
+	auto setRemapTexDictionary(const __int32 i32RemapID) -> void;
+	auto isEmpty(void) const -> bool;
+	~cVehicle(void) = default;
 
 	private:
 };

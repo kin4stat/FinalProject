@@ -20,17 +20,17 @@ class cVector3D : public cVector2D {
 	public:
 	float fZ{0};
 
-	explicit cVector3D::cVector3D(void);
-	explicit cVector3D::cVector3D(const float fX, const float fY, const float fZ);
-	auto cVector3D::magnitude(void) const -> float;
-	auto cVector3D::isAnyEmpty(void) const -> bool;
-	auto cVector3D::isXYEmpty(void) const -> bool;
-	auto cVector3D::clear(void) -> void;
-	auto cVector3D::operator += (const class cVector3D &vecRight) -> class cVector3D *;
-	cVector3D::~cVector3D(void);
+	explicit cVector3D(void);
+	explicit cVector3D(const float fX, const float fY, const float fZ);
+	auto magnitude(void) const -> float;
+	auto isAnyEmpty(void) const -> bool;
+	auto isXYEmpty(void) const -> bool;
+	auto clear(void) -> void;
+	auto operator += (const class cVector3D &vecRight) -> class cVector3D *;
+	~cVector3D(void);
 
-	static auto cVector3D::multiply3x3(class cVector3D *pOut, const class cMatrix *pMat, const class cVector3D *pIn) -> void;
-	static auto cVector3D::scaleVector2(class cVector3D *pOut, const float fTotal, const class cVector3D *pIn) -> void;
+	static auto multiply3x3(class cVector3D *pOut, const class cMatrix *pMat, const class cVector3D *pIn) -> void;
+	static auto scaleVector2(class cVector3D *pOut, const float fTotal, const class cVector3D *pIn) -> void;
 
 	private:
 };

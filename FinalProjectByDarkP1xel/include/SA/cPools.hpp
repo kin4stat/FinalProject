@@ -16,12 +16,12 @@
 
 class cPools final {
 	public:
-	explicit cPools::cPools(void) = delete;
-	cPools::~cPools(void) = default;
+	explicit cPools(void) = delete;
+	~cPools(void) = default;
 
-	static auto cPools::getPlayerPool(void) -> class cPool<class cPed> *;
-	static auto cPools::getVehiclePool(void) -> class cPool<class cAutomobile> *;
-	static auto cPools::getObjectPool(void) -> class cPool<class cObject> *;
+	static auto getPlayerPool(void) -> class cPool<class cPed> *;
+	static auto getVehiclePool(void) -> class cPool<class cAutomobile> *;
+	static auto getObjectPool(void) -> class cPool<class cObject> *;
 
 	private:
 

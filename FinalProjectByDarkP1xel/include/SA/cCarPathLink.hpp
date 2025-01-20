@@ -30,8 +30,8 @@ class cCarPathLink final {
 	unsigned __int8 bTrainCrossing : 1;
 	__int8 i8Field_D{0};
 
-	explicit cCarPathLink::cCarPathLink(void) = delete;
-	cCarPathLink::~cCarPathLink(void) = delete;
+	explicit cCarPathLink(void) = delete;
+	~cCarPathLink(void) = delete;
 
 	private:
 };

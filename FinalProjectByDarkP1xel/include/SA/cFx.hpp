@@ -43,9 +43,9 @@ class cFx final {
 	struct stRwMatrix *pTransformLTM{nullptr};
 	void *pVerts{nullptr};
 
-	explicit cFx::cFx(void) = delete;
-	auto cFx::addBlood(const class cVector3D *pPos, const class cVector3D *pVelocity, const unsigned __int32 ui32Amount, const float fBrightness) -> void;
-	cFx::~cFx(void) = delete;
+	explicit cFx(void) = delete;
+	auto addBlood(const class cVector3D *pPos, const class cVector3D *pVelocity, const unsigned __int32 ui32Amount, const float fBrightness) -> void;
+	~cFx(void) = delete;
 
 	private:
 };

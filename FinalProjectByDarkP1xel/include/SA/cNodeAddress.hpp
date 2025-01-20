@@ -17,8 +17,8 @@ class cNodeAddress final {
 	__int16 i16AreaID{0};
 	__int16 i16NodeID{0};
 
-	explicit cNodeAddress::cNodeAddress(void) = default;
-	cNodeAddress::~cNodeAddress(void) = default;
+	explicit cNodeAddress(void) = default;
+	~cNodeAddress(void) = default;
 
 	private:
 };

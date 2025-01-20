@@ -125,8 +125,8 @@ class cCam final {
 	bool bFirstPersonRunAboutActive{false};
 	__int8 i8Pad238[3];
 
-	explicit cCam::cCam(void) = default;
-	cCam::~cCam(void) = default;
+	explicit cCam(void) = default;
+	~cCam(void) = default;
 
 	private:
 };

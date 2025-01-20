@@ -71,17 +71,17 @@ class cEntity final {
 	unsigned __int8 ui8Status : 5;
 	__int8 i8Pad{0};
 
-	explicit cEntity::cEntity(void) = default;
-	auto cEntity::updateRW(void) -> void;
-	auto cEntity::updateRwFrame(void) -> void;
-	auto cEntity::isVisible(void) -> bool;
-	auto cEntity::isVeh(void) const -> bool;
-	auto cEntity::isPed(void) const -> bool;
-	auto cEntity::getBoundRect(class cVector4D *pRectOut) -> void;
-	auto cEntity::getColModel(void) -> class cColModel *;
-	auto cEntity::getHeading(void) -> float;
-	auto cEntity::setModelIndex(const unsigned __int32 ui32ModelID) -> void;
-	cEntity::~cEntity(void) = default;
+	explicit cEntity(void) = default;
+	auto updateRW(void) -> void;
+	auto updateRwFrame(void) -> void;
+	auto isVisible(void) -> bool;
+	auto isVeh(void) const -> bool;
+	auto isPed(void) const -> bool;
+	auto getBoundRect(class cVector4D *pRectOut) -> void;
+	auto getColModel(void) -> class cColModel *;
+	auto getHeading(void) -> float;
+	auto setModelIndex(const unsigned __int32 ui32ModelID) -> void;
+	~cEntity(void) = default;
 
 	private:
 };

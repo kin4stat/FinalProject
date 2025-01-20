@@ -83,12 +83,12 @@ class cObject final {
 	unsigned __int32 ui32BurnTime{0};
 	float fBurnDamage{0};
 
-	explicit cObject::cObject(void) = delete;
-	cObject::~cObject(void) = delete;
+	explicit cObject(void) = delete;
+	~cObject(void) = delete;
 
-	static auto cObject::deleteAllTempObjects(void) -> void;
-	static auto cObject::deleteAllMissionObjects(void) -> void;
-	static auto cObject::deleteAllTempObjectsInArea(const class cVector3D *pPoint, const float fRadius) -> void;
+	static auto deleteAllTempObjects(void) -> void;
+	static auto deleteAllMissionObjects(void) -> void;
+	static auto deleteAllTempObjectsInArea(const class cVector3D *pPoint, const float fRadius) -> void;
 
 	private:
 };

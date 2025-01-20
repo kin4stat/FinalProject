@@ -53,8 +53,8 @@ class cBaseModelInfo final {
 	float fDrawDistance{0};
 	struct stRwObject *pRwObject{nullptr};
 
-	explicit cBaseModelInfo::cBaseModelInfo(void) = default;
-	cBaseModelInfo::~cBaseModelInfo(void) = default;
+	explicit cBaseModelInfo(void) = default;
+	~cBaseModelInfo(void) = default;
 
 	private:
 };

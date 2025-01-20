@@ -17,8 +17,8 @@ class cCompressedVector2D {
 	__int16 i16X{0};
 	__int16 i16Y{0};
 
-	explicit cCompressedVector2D::cCompressedVector2D(void) = default;
-	cCompressedVector2D::~cCompressedVector2D(void) = default;
+	explicit cCompressedVector2D(void) = default;
+	~cCompressedVector2D(void) = default;
 
 	private:
 };

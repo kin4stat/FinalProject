@@ -14,11 +14,11 @@
 
 class cColStore final {
 	public:
-	explicit cColStore::cColStore(void) = delete;
-	cColStore::~cColStore(void) = delete;
+	explicit cColStore(void) = delete;
+	~cColStore(void) = delete;
 
-	static auto cColStore::requestCollision(const class cVector3D *pPos, const unsigned __int32 ui32InteriorID) -> void;
-	static auto cColStore::removeAllCollision(void) -> void;
+	static auto requestCollision(const class cVector3D *pPos, const unsigned __int32 ui32InteriorID) -> void;
+	static auto removeAllCollision(void) -> void;
 
 	private:
 };

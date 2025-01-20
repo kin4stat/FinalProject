@@ -16,10 +16,10 @@
 
 class cPointLights final {
 	public:
-	explicit cPointLights::cPointLights(void) = delete;
-	cPointLights::~cPointLights(void) = delete;
+	explicit cPointLights(void) = delete;
+	~cPointLights(void) = delete;
 
-	static auto cPointLights::addLight(const unsigned __int8 ui8Type, const class cVector3D *pPos, const class cVector3D *pVelocity, const float fRadius, const class cVector3D *pColor, const unsigned __int8 ui8FogType = 0, const bool bGenerateExtraShadows = false, const class cEntity *pAttachedTo = nullptr) -> void;
+	static auto addLight(const unsigned __int8 ui8Type, const class cVector3D *pPos, const class cVector3D *pVelocity, const float fRadius, const class cVector3D *pColor, const unsigned __int8 ui8FogType = 0, const bool bGenerateExtraShadows = false, const class cEntity *pAttachedTo = nullptr) -> void;
 
 	private:
 };

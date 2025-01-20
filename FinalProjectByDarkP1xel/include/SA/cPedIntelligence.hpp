@@ -14,10 +14,10 @@
 
 class cPedIntelligence final {
 	public:
-	explicit cPedIntelligence::cPedIntelligence(void) = delete;
-	auto cPedIntelligence::flushImmediately(const bool bUnk) -> bool;
-	auto cPedIntelligence::clearTasks(const bool bFirst, const bool bSecond) -> void;
-	cPedIntelligence::~cPedIntelligence(void) = delete;
+	explicit cPedIntelligence(void) = delete;
+	auto flushImmediately(const bool bUnk) -> bool;
+	auto clearTasks(const bool bFirst, const bool bSecond) -> void;
+	~cPedIntelligence(void) = delete;
 
 	private:
 };

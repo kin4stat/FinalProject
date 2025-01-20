@@ -25,9 +25,9 @@ class cWeapon final {
 	__int8 i8Field_17{0};
 	class cFxSystem_c *pFxSystem{nullptr};
 
-	explicit cWeapon::cWeapon(void) = default;
-	auto cWeapon::shutdown(void) -> void;
-	cWeapon::~cWeapon(void) = default;
+	explicit cWeapon(void) = default;
+	auto shutdown(void) -> void;
+	~cWeapon(void) = default;
 
 	private:
 };

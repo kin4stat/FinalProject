@@ -41,8 +41,8 @@ class cPathNode final {
 	unsigned __int8 ui8BehaviourType : 4;
 	__int8 i8Field_1B{0};
 
-	explicit cPathNode::cPathNode(void) = delete;
-	cPathNode::~cPathNode(void) = delete;
+	explicit cPathNode(void) = delete;
+	~cPathNode(void) = delete;
 
 	private:
 };

@@ -18,9 +18,9 @@ class cBoat final {
 	public:
 	class cVehicle Vehicle {};
 
-	explicit cBoat::cBoat(void) = default;
-	auto cBoat::teleport(const class cVector3D *pPos, const bool bResetAngle) -> void;
-	cBoat::~cBoat(void) = default;
+	explicit cBoat(void) = default;
+	auto teleport(const class cVector3D *pPos, const bool bResetAngle) -> void;
+	~cBoat(void) = default;
 
 	private:
 };

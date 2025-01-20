@@ -20,8 +20,8 @@ class cQueuedMode final {
 	unsigned __int16 ui16MinZoom{0};
 	unsigned __int16 ui16MaxZoom{0};
 
-	explicit cQueuedMode::cQueuedMode(void) = default;
-	cQueuedMode::~cQueuedMode(void) = default;
+	explicit cQueuedMode(void) = default;
+	~cQueuedMode(void) = default;
 
 	private:
 };

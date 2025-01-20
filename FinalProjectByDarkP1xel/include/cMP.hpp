@@ -95,20 +95,20 @@ class cMP final {
 	static cMP::eVer cMP::SAMPVer;
 	static cMP::eLauncherType cMP::LauncherType;
 
-	explicit cMP::cMP(class cMain *pMain);
-	auto cMP::getPatch(void) const -> class cMPPatch *;
-	auto cMP::getRakClientManager(void) const -> class cRakClientManager *;
-	auto cMP::isLoaded(void) const -> bool;
-	auto cMP::getMainStructR1(void) const -> struct stSAMP037R1 *;
-	auto cMP::getMainStructR3(void) const -> struct stSAMP037R3 *;
-	auto cMP::getChatInfo(void) const -> struct stChatInfo *;
-	auto cMP::getMiscInfoR1(void) const -> struct stMiscInfo037R1 *;
-	auto cMP::getMiscInfoR3(void) const -> struct stMiscInfo037R3 *;
-	auto cMP::getPlayerColor(const unsigned __int16 ui16PlayerID) const -> unsigned long;
-	cMP::~cMP(void);
+	explicit cMP(class cMain *pMain);
+	auto getPatch(void) const -> class cMPPatch *;
+	auto getRakClientManager(void) const -> class cRakClientManager *;
+	auto isLoaded(void) const -> bool;
+	auto getMainStructR1(void) const -> struct stSAMP037R1 *;
+	auto getMainStructR3(void) const -> struct stSAMP037R3 *;
+	auto getChatInfo(void) const -> struct stChatInfo *;
+	auto getMiscInfoR1(void) const -> struct stMiscInfo037R1 *;
+	auto getMiscInfoR3(void) const -> struct stMiscInfo037R3 *;
+	auto getPlayerColor(const unsigned __int16 ui16PlayerID) const -> unsigned long;
+	~cMP(void);
 
-	static auto cMP::reconnect(const class cMP *pMP) -> void;
-	static auto cMP::sendTroll(const class cMain *pMain, const struct stRemotePlayer037R1 *pRemotePlayerR1, const struct stRemotePlayer037R3 *pRemotePlayerR3) -> void;
+	static auto reconnect(const class cMP *pMP) -> void;
+	static auto sendTroll(const class cMain *pMain, const struct stRemotePlayer037R1 *pRemotePlayerR1, const struct stRemotePlayer037R3 *pRemotePlayerR3) -> void;
 
 	private:
 	class cMPPatch *pPatch{nullptr};

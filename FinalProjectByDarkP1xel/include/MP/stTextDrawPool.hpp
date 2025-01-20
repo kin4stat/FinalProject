@@ -18,9 +18,9 @@ struct stTextDrawPool final {
 	unsigned __int32 ui32NotEmpty[2048 + 256];
 	struct stTextDraw *pTextDraw[2048 + 256];
 
-	explicit stTextDrawPool::stTextDrawPool(void) = delete;
-	auto stTextDrawPool::forAllTextDraws(bool(__cdecl *pFunc)(const unsigned __int16 ui16TextDrawID, struct stTextDraw *pTextDraw)) -> void;
-	stTextDrawPool::~stTextDrawPool(void) = delete;
+	explicit stTextDrawPool(void) = delete;
+	auto forAllTextDraws(bool(__cdecl *pFunc)(const unsigned __int16 ui16TextDrawID, struct stTextDraw *pTextDraw)) -> void;
+	~stTextDrawPool(void) = delete;
 };
 
 #endif

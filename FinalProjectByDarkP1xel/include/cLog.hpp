@@ -16,9 +16,9 @@
 
 class cLog final {
 	public:
-	explicit cLog::cLog(const std::wstring &wsLOGName);
-	auto cLog::LOG(void) const->std::wofstream &;
-	cLog::~cLog(void);
+	explicit cLog(const std::wstring &wsLOGName);
+	auto LOG(void) const->std::wofstream &;
+	~cLog(void);
 
 	private:
 	mutable std::wofstream wofsLOGFile{};

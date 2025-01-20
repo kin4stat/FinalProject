@@ -22,8 +22,8 @@ class cClumpModelInfo final {
 		unsigned __int32 ui32AnimFileIndex{0};
 	};
 
-	explicit cClumpModelInfo::cClumpModelInfo(void) = default;
-	cClumpModelInfo::~cClumpModelInfo(void) = default;
+	explicit cClumpModelInfo(void) = default;
+	~cClumpModelInfo(void) = default;
 
 	private:
 };

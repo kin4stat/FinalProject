@@ -21,8 +21,8 @@ class cBitStream final {
 	bool bCopyData{true};
 	unsigned __int8 ui8StackData[256];
 
-	explicit cBitStream::cBitStream(void *pData, const unsigned __int32 ui32DataLenBytes);
-	cBitStream::~cBitStream(void);
+	explicit cBitStream(void *pData, const unsigned __int32 ui32DataLenBytes);
+	~cBitStream(void);
 
 	private:
 };

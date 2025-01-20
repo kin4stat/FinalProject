@@ -18,8 +18,8 @@ class cTransmissionGear final {
 	float fChangeUpVelocity{0};
 	float fChangeDownVelocity{0};
 
-	explicit cTransmissionGear::cTransmissionGear(void) = default;
-	cTransmissionGear::~cTransmissionGear(void) = default;
+	explicit cTransmissionGear(void) = default;
+	~cTransmissionGear(void) = default;
 
 	private:
 };

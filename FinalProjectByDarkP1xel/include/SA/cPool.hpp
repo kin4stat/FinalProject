@@ -29,11 +29,11 @@ template <class T> class cPool final {
 	bool bOwnsAllocations{false};
 	bool bField_11{false};
 
-	explicit cPool::cPool(void) = default;
-	auto cPool::forAllPeds(bool(__cdecl *pFunc)(class cPed *pPed)) const -> void;
-	auto cPool::forAllVehs(bool(__cdecl *pFunc)(class cAutomobile *pAuto)) const -> void;
-	auto cPool::forAllObjs(bool(__cdecl *pFunc)(class cObject *pObject)) const -> void;
-	cPool::~cPool(void) = default;
+	explicit cPool(void) = default;
+	auto forAllPeds(bool(__cdecl *pFunc)(class cPed *pPed)) const -> void;
+	auto forAllVehs(bool(__cdecl *pFunc)(class cAutomobile *pAuto)) const -> void;
+	auto forAllObjs(bool(__cdecl *pFunc)(class cObject *pObject)) const -> void;
+	~cPool(void) = default;
 
 	private:
 

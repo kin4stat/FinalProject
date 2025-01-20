@@ -16,8 +16,8 @@ class cSprite2D final {
 	public:
 	struct stRwTexture *pRwTexture{nullptr};
 
-	explicit cSprite2D::cSprite2D(void) = default;
-	cSprite2D::~cSprite2D(void) = default;
+	explicit cSprite2D(void) = default;
+	~cSprite2D(void) = default;
 
 	private:
 };

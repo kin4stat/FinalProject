@@ -18,9 +18,9 @@ class cQuadBike final {
 	public:
 	class cAutomobile Automobile {};
 
-	explicit cQuadBike::cQuadBike(void) = delete;
-	auto cQuadBike::fix(void) -> void;
-	cQuadBike::~cQuadBike(void) = delete;
+	explicit cQuadBike(void) = delete;
+	auto fix(void) -> void;
+	~cQuadBike(void) = delete;
 
 	private:
 };

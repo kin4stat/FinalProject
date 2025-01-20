@@ -23,14 +23,14 @@ class cDXFont final {
 		eNameTags
 	};
 
-	explicit cDXFont::cDXFont(class cWinAPIFuncs *pWinAPIFuncs);
-	auto cDXFont::createFont(IDirect3DDevice9 *pDeviceInterface, const cDXFont::eFontType fontType, const D3DXFONT_DESCW *fontSettings)->ID3DXFont *;
-	auto cDXFont::getFontInterface(const cDXFont::eFontType fontType) const->ID3DXFont *;
-	auto cDXFont::getTextLengthInPixelsA(const cDXFont::eFontType fontType, const std::string &sText) const -> unsigned __int32;
-	auto cDXFont::getTextLengthInPixelsW(const cDXFont::eFontType fontType, const std::wstring &wsText) const -> unsigned __int32;
-	auto cDXFont::drawTextShadowedA(const cDXFont::eFontType fontType, const char *pText, RECT *pRectPos, const DWORD dwFormat, const D3DCOLOR d3dColorA, const D3DCOLOR d3dColorB = 0xFF000000, const D3DCOLOR d3dShadowColor = 0xFF000000) const -> void;
-	auto cDXFont::drawTextShadowedW(const cDXFont::eFontType fontType, const wchar_t *pText, RECT *pRectPos, const DWORD dwFormat, const D3DCOLOR d3dColorA, const D3DCOLOR d3dColorB = 0xFF000000, const D3DCOLOR d3dShadowColor = 0xFF000000) const -> void;
-	cDXFont::~cDXFont(void);
+	explicit cDXFont(class cWinAPIFuncs *pWinAPIFuncs);
+	auto createFont(IDirect3DDevice9 *pDeviceInterface, const cDXFont::eFontType fontType, const D3DXFONT_DESCW *fontSettings)->ID3DXFont *;
+	auto getFontInterface(const cDXFont::eFontType fontType) const->ID3DXFont *;
+	auto getTextLengthInPixelsA(const cDXFont::eFontType fontType, const std::string &sText) const -> unsigned __int32;
+	auto getTextLengthInPixelsW(const cDXFont::eFontType fontType, const std::wstring &wsText) const -> unsigned __int32;
+	auto drawTextShadowedA(const cDXFont::eFontType fontType, const char *pText, RECT *pRectPos, const DWORD dwFormat, const D3DCOLOR d3dColorA, const D3DCOLOR d3dColorB = 0xFF000000, const D3DCOLOR d3dShadowColor = 0xFF000000) const -> void;
+	auto drawTextShadowedW(const cDXFont::eFontType fontType, const wchar_t *pText, RECT *pRectPos, const DWORD dwFormat, const D3DCOLOR d3dColorA, const D3DCOLOR d3dColorB = 0xFF000000, const D3DCOLOR d3dShadowColor = 0xFF000000) const -> void;
+	~cDXFont(void);
 
 	private:
 	class cWinAPIFuncs *pWinAPIFuncs{nullptr};

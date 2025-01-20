@@ -92,17 +92,17 @@ class cPhysical final {
 	float fDynamicLighting{0};
 	class cRealTimeShadow *pShadowData{nullptr};
 
-	explicit cPhysical::cPhysical(void) = default;
-	auto cPhysical::applySpeed(void) -> void;
-	auto cPhysical::applyMoveSpeed(void) -> void;
-	auto cPhysical::skipPhysics(void) -> void;
-	auto cPhysical::unsetIsInSafePosition(void) -> void;
-	auto cPhysical::addToMovingList(void) -> void;
-	auto cPhysical::removeFromMovingList(void) -> void;
-	auto cPhysical::removeAndAdd(void) -> void;
-	auto cPhysical::applyMoveForce(const class cVector3D *pMove) -> void;
-	auto cPhysical::applyTurnForce(class cVector3D *pDir, class cVector3D *pVelocity) -> void;
-	cPhysical::~cPhysical(void) = default;
+	explicit cPhysical(void) = default;
+	auto applySpeed(void) -> void;
+	auto applyMoveSpeed(void) -> void;
+	auto skipPhysics(void) -> void;
+	auto unsetIsInSafePosition(void) -> void;
+	auto addToMovingList(void) -> void;
+	auto removeFromMovingList(void) -> void;
+	auto removeAndAdd(void) -> void;
+	auto applyMoveForce(const class cVector3D *pMove) -> void;
+	auto applyTurnForce(class cVector3D *pDir, class cVector3D *pVelocity) -> void;
+	~cPhysical(void) = default;
 
 	private:
 };

@@ -27,17 +27,17 @@ class cMatrix final {
 	class cMatrix *pAttachMatrix{nullptr};
 	__int32 i32AttachMatrixTemporary{0};
 
-	explicit cMatrix::cMatrix(void) = default;
-	auto cMatrix::rotateX(const float fX) -> void;
-	auto cMatrix::setRotateXOnly(const float fX) -> void;
-	auto cMatrix::rotateY(const float fY) -> void;
-	auto cMatrix::setRotateYOnly(const float fY) -> void;
-	auto cMatrix::rotateZ(const float fZ) -> void;
-	auto cMatrix::setRotateZOnly(const float fZ) -> void;
-	auto cMatrix::resetOrientation(void) -> void;
-	auto cMatrix::reOrthogonale(void) -> void;
-	auto cMatrix::forceUpVector(const class cVector3D *pVec) -> void;
-	cMatrix::~cMatrix(void) = default;
+	explicit cMatrix(void) = default;
+	auto rotateX(const float fX) -> void;
+	auto setRotateXOnly(const float fX) -> void;
+	auto rotateY(const float fY) -> void;
+	auto setRotateYOnly(const float fY) -> void;
+	auto rotateZ(const float fZ) -> void;
+	auto setRotateZOnly(const float fZ) -> void;
+	auto resetOrientation(void) -> void;
+	auto reOrthogonale(void) -> void;
+	auto forceUpVector(const class cVector3D *pVec) -> void;
+	~cMatrix(void) = default;
 
 	private:
 };

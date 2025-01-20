@@ -19,16 +19,16 @@ class cAutomobile final {
 	public:
 	class cVehicle Vehicle {};
 
-	explicit cAutomobile::cAutomobile(void) = default;
-	auto cAutomobile::getDamageManager(void) const -> class cDamageManager *;
-	auto cAutomobile::fix(void) -> void;
-	auto cAutomobile::teleport(const class cVector3D *pPos, const bool bResetAngle) -> void;
-	auto cAutomobile::setPanelDamage(const cDamageManager::ePanels Panel, const bool bCreateWindowGlass) -> void;
-	auto cAutomobile::popPanel(const unsigned __int32 ui32NodeID, const cDamageManager::ePanels Panel, const bool bShowVisualEffect) -> void;
-	auto cAutomobile::getComponentWorldPosition(const unsigned __int32 ui32ComponentID, class cVector3D *pResult) -> void;
-	auto cAutomobile::setModelIndex(const unsigned __int32 ui32ModelID) -> void;
-	auto cAutomobile::setTowLink(const class cVehicle *pVehicle, const bool bUnk) -> bool;
-	cAutomobile::~cAutomobile(void) = default;
+	explicit cAutomobile(void) = default;
+	auto getDamageManager(void) const -> class cDamageManager *;
+	auto fix(void) -> void;
+	auto teleport(const class cVector3D *pPos, const bool bResetAngle) -> void;
+	auto setPanelDamage(const cDamageManager::ePanels Panel, const bool bCreateWindowGlass) -> void;
+	auto popPanel(const unsigned __int32 ui32NodeID, const cDamageManager::ePanels Panel, const bool bShowVisualEffect) -> void;
+	auto getComponentWorldPosition(const unsigned __int32 ui32ComponentID, class cVector3D *pResult) -> void;
+	auto setModelIndex(const unsigned __int32 ui32ModelID) -> void;
+	auto setTowLink(const class cVehicle *pVehicle, const bool bUnk) -> bool;
+	~cAutomobile(void) = default;
 
 	private:
 };

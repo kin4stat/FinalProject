@@ -29,8 +29,8 @@ class cTransmission final {
 	float fMinGearVelocity{0};
 	float fCurrentSpeed{0};
 
-	explicit cTransmission::cTransmission(void) = default;
-	cTransmission::~cTransmission(void) = default;
+	explicit cTransmission(void) = default;
+	~cTransmission(void) = default;
 
 	private:
 };

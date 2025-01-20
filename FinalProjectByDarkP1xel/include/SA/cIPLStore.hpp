@@ -14,10 +14,10 @@
 
 class cIPLStore final {
 	public:
-	explicit cIPLStore::cIPLStore(void) = delete;
-	cIPLStore::~cIPLStore(void) = delete;
+	explicit cIPLStore(void) = delete;
+	~cIPLStore(void) = delete;
 
-	static auto cIPLStore::removeAllIPLs(void) -> void;
+	static auto removeAllIPLs(void) -> void;
 
 	private:
 };

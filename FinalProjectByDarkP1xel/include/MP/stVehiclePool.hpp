@@ -30,10 +30,10 @@ struct stVehiclePool final {
 	class cVector3D vecSpawnPos[2000]{};
 	__int32 i32NeedsToInitializeLicensePlates{0};
 
-	explicit stVehiclePool::stVehiclePool(void) = delete;
-	auto stVehiclePool::getVehicleIDByHandle(class cAutomobile *pAuto) const -> unsigned __int16;
-	auto stVehiclePool::forAllRemoteVehs(bool(__cdecl *pFunc)(const unsigned __int16 ui16VehicleID, struct stSAMPVehicle *pRemoteVeh)) const -> void;
-	stVehiclePool::~stVehiclePool(void) = delete;
+	explicit stVehiclePool(void) = delete;
+	auto getVehicleIDByHandle(class cAutomobile *pAuto) const -> unsigned __int16;
+	auto forAllRemoteVehs(bool(__cdecl *pFunc)(const unsigned __int16 ui16VehicleID, struct stSAMPVehicle *pRemoteVeh)) const -> void;
+	~stVehiclePool(void) = delete;
 };
 
 #endif

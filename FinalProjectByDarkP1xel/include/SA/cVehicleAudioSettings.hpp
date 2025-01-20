@@ -33,8 +33,8 @@ class cVehicleAudioSettings final {
 	__int8 i8Field_1D[3];
 	float fHornVolumeDelta{0};
 
-	explicit cVehicleAudioSettings::cVehicleAudioSettings(void) = default;
-	cVehicleAudioSettings::~cVehicleAudioSettings(void) = default;
+	explicit cVehicleAudioSettings(void) = default;
+	~cVehicleAudioSettings(void) = default;
 
 	private:
 };

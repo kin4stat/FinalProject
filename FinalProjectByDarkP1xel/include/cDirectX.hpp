@@ -33,10 +33,10 @@ class cDirectX final {
 		eSetStreamSource = 100
 	};
 
-	explicit cDirectX::cDirectX(class cWinAPIFuncs *pWinAPIFuncs);
-	auto cDirectX::getFont(void) const -> class cDXFont *;
-	auto cDirectX::getLine(void) const -> class cDXLine *;
-	cDirectX::~cDirectX(void);
+	explicit cDirectX(class cWinAPIFuncs *pWinAPIFuncs);
+	auto getFont(void) const -> class cDXFont *;
+	auto getLine(void) const -> class cDXLine *;
+	~cDirectX(void);
 
 	private:
 	class cDXFont *pFont{nullptr};

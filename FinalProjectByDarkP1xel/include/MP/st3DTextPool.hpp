@@ -18,9 +18,9 @@ struct st3DTextPool final {
 	struct st3DText text3D[2048]{};
 	__int32 i32IsListed[2048];
 
-	explicit st3DTextPool::st3DTextPool(void) = delete;
-	auto st3DTextPool::forAll3D(bool(__cdecl *pFunc)(const unsigned __int16 ui163DTextID, struct st3DText *p3DText)) -> void;
-	st3DTextPool::~st3DTextPool(void) = delete;
+	explicit st3DTextPool(void) = delete;
+	auto forAll3D(bool(__cdecl *pFunc)(const unsigned __int16 ui163DTextID, struct st3DText *p3DText)) -> void;
+	~st3DTextPool(void) = delete;
 };
 
 #endif

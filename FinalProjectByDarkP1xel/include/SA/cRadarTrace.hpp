@@ -35,8 +35,8 @@ class cRadarTrace final {
 	unsigned __int8 ui8BlipDisplayFlag : 2;
 	unsigned __int8 ui8BlipType : 4;
 
-	explicit cRadarTrace::cRadarTrace(void) = delete;
-	cRadarTrace::~cRadarTrace(void) = delete;
+	explicit cRadarTrace(void) = delete;
+	~cRadarTrace(void) = delete;
 
 	private:
 };

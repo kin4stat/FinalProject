@@ -20,8 +20,8 @@ class cFxFrustumInfo final {
 	class cFxSphere fxSphere {};
 	class cFxPlane fxPlanes[4]{};
 
-	explicit cFxFrustumInfo::cFxFrustumInfo(void) = default;
-	cFxFrustumInfo::~cFxFrustumInfo(void) = default;
+	explicit cFxFrustumInfo(void) = default;
+	~cFxFrustumInfo(void) = default;
 
 	private:
 };

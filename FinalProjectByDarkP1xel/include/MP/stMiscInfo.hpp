@@ -38,8 +38,8 @@ struct stMiscInfo037R1 final {
 	__int8 i8Field_6D{0};
 	bool bKeepLoadedVehicleModels[212];
 
-	explicit stMiscInfo037R1::stMiscInfo037R1(void) = delete;
-	stMiscInfo037R1::~stMiscInfo037R1(void) = delete;
+	explicit stMiscInfo037R1(void) = delete;
+	~stMiscInfo037R1(void) = delete;
 };
 
 struct stMiscInfo037R3 final {
@@ -66,8 +66,8 @@ struct stMiscInfo037R3 final {
 	__int8 i8Field_6D{0};
 	bool bKeepLoadedVehicleModels[212];
 
-	explicit stMiscInfo037R3::stMiscInfo037R3(void) = delete;
-	stMiscInfo037R3::~stMiscInfo037R3(void) = delete;
+	explicit stMiscInfo037R3(void) = delete;
+	~stMiscInfo037R3(void) = delete;
 };
 
 #endif

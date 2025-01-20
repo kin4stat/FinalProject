@@ -19,8 +19,8 @@ class cCamTweak final {
 	float fAltitude{0};
 	float fAngle{0};
 
-	explicit cCamTweak::cCamTweak(void) = default;
-	cCamTweak::~cCamTweak(void) = default;
+	explicit cCamTweak(void) = default;
+	~cCamTweak(void) = default;
 
 	private:
 };

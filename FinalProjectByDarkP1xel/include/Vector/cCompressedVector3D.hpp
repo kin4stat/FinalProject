@@ -18,8 +18,8 @@ class cCompressedVector3D final: public cCompressedVector2D {
 	public:
 	__int16 i16Z{0};
 
-	explicit cCompressedVector3D::cCompressedVector3D(void) = default;
-	cCompressedVector3D::~cCompressedVector3D(void) = default;
+	explicit cCompressedVector3D(void) = default;
+	~cCompressedVector3D(void) = default;
 
 	private:
 };

@@ -17,8 +17,8 @@ class cCarPathLinkAddress final {
 	__int16 i16CarPathLinkID : 10;
 	__int16 i16AreaID : 6;
 
-	explicit cCarPathLinkAddress::cCarPathLinkAddress(void) = delete;
-	cCarPathLinkAddress::~cCarPathLinkAddress(void) = delete;
+	explicit cCarPathLinkAddress(void) = delete;
+	~cCarPathLinkAddress(void) = delete;
 
 	private:
 };

@@ -17,8 +17,8 @@ class cPathIntersectionInfo final {
 	unsigned __int8 bRoadCross : 1;
 	unsigned __int8 bPedTrafficLight : 1;
 
-	explicit cPathIntersectionInfo::cPathIntersectionInfo(void) = delete;
-	cPathIntersectionInfo::~cPathIntersectionInfo(void) = delete;
+	explicit cPathIntersectionInfo(void) = delete;
+	~cPathIntersectionInfo(void) = delete;
 
 	private:
 };

@@ -60,10 +60,10 @@ class cPad final {
 	__int8 i8NoShakeFreq{0};
 	__int8 i8Pad131[3];
 
-	explicit cPad::cPad(void) = delete;
-	auto cPad::updatePads(void) -> void;
-	auto cPad::jumpJustDown(void) -> bool;
-	cPad::~cPad(void) = delete;
+	explicit cPad(void) = delete;
+	auto updatePads(void) -> void;
+	auto jumpJustDown(void) -> bool;
+	~cPad(void) = delete;
 
 	private:
 };

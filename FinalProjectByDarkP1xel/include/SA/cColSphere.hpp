@@ -22,8 +22,8 @@ class cColSphere final {
 	unsigned __int8 ui8Lighting{0};
 	unsigned __int8 ui8Light{0};
 
-	explicit cColSphere::cColSphere(void) = default;
-	cColSphere::~cColSphere(void) = default;
+	explicit cColSphere(void) = default;
+	~cColSphere(void) = default;
 
 	private:
 };

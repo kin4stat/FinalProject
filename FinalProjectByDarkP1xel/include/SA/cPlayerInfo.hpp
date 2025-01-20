@@ -16,12 +16,12 @@ class cPlayerInfo final {
 	public:
 	class cPed *pPed{nullptr};
 
-	explicit cPlayerInfo::cPlayerInfo(void) = delete;
-	auto cPlayerInfo::getTimeCanRun(void) const -> float;
-	auto cPlayerInfo::getState(void) const -> unsigned __int8;
-	auto cPlayerInfo::setState(const unsigned __int8 ui8State) -> void;
-	auto cPlayerInfo::makePlayerSafe(const bool bLock, const float fRadius) -> void;
-	cPlayerInfo::~cPlayerInfo(void) = delete;
+	explicit cPlayerInfo(void) = delete;
+	auto getTimeCanRun(void) const -> float;
+	auto getState(void) const -> unsigned __int8;
+	auto setState(const unsigned __int8 ui8State) -> void;
+	auto makePlayerSafe(const bool bLock, const float fRadius) -> void;
+	~cPlayerInfo(void) = delete;
 
 	private:
 };

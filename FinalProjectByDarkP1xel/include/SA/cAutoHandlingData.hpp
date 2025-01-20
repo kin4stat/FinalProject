@@ -124,8 +124,8 @@ class cAutoHandlingData final {
 	unsigned __int8 ui8AnimGroup{0};
 	__int8 i8Field_DF{0};
 
-	explicit cAutoHandlingData::cAutoHandlingData(void) = default;
-	cAutoHandlingData::~cAutoHandlingData(void) = default;
+	explicit cAutoHandlingData(void) = default;
+	~cAutoHandlingData(void) = default;
 
 	private:
 };

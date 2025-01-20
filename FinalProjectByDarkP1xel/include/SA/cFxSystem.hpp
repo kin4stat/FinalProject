@@ -46,18 +46,18 @@ class cFxSystem final {
 	void **ppPrimsPtrList{nullptr};
 	__int8 i8FireAudio[0x88];
 
-	explicit cFxSystem::cFxSystem(void) = delete;
-	auto cFxSystem::addParticle(const class cVector3D *pPos, const class cVector3D *pVelocity, const float fUnk1, const class cFxPrtMult *pPrtMult, const float fUnk2 = 0, const float fBrightness = 1.0F, const float fBrightnessMin = 1.0F, const unsigned __int8 ui8Unk3 = 0) -> void;
-	auto cFxSystem::play(void) -> void;
-	auto cFxSystem::playAndKill(void) -> void;
-	auto cFxSystem::stop(void) -> void;
-	auto cFxSystem::getPlayStatus(void) -> __int8;
-	auto cFxSystem::copyParentMatrix(void) -> bool;
-	auto cFxSystem::setConstTime(const bool bUseTime, const float fTime) -> void;
-	auto cFxSystem::setLocalParticles(const bool bLocal) -> void;
-	auto cFxSystem::setOffsetPos(const class cVector3D *pOffset) -> void;
-	auto cFxSystem::setMatrix(const struct stRwMatrix *pMatrix) -> void;
-	cFxSystem::~cFxSystem(void) = delete;
+	explicit cFxSystem(void) = delete;
+	auto addParticle(const class cVector3D *pPos, const class cVector3D *pVelocity, const float fUnk1, const class cFxPrtMult *pPrtMult, const float fUnk2 = 0, const float fBrightness = 1.0F, const float fBrightnessMin = 1.0F, const unsigned __int8 ui8Unk3 = 0) -> void;
+	auto play(void) -> void;
+	auto playAndKill(void) -> void;
+	auto stop(void) -> void;
+	auto getPlayStatus(void) -> __int8;
+	auto copyParentMatrix(void) -> bool;
+	auto setConstTime(const bool bUseTime, const float fTime) -> void;
+	auto setLocalParticles(const bool bLocal) -> void;
+	auto setOffsetPos(const class cVector3D *pOffset) -> void;
+	auto setMatrix(const struct stRwMatrix *pMatrix) -> void;
+	~cFxSystem(void) = delete;
 
 	private:
 };

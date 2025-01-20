@@ -21,8 +21,8 @@ class cColModel final {
 	class cColSphere boundSphere {};
 	class cCollisionData *pColData{nullptr};
 
-	explicit cColModel::cColModel(void) = delete;
-	cColModel::~cColModel(void) = delete;
+	explicit cColModel(void) = delete;
+	~cColModel(void) = delete;
 
 	private:
 };

@@ -18,9 +18,9 @@ class cPlane final {
 	public:
 	class cAutomobile Automobile {};
 
-	explicit cPlane::cPlane(void) = delete;
-	auto cPlane::fix(void) -> void;
-	cPlane::~cPlane(void) = delete;
+	explicit cPlane(void) = delete;
+	auto fix(void) -> void;
+	~cPlane(void) = delete;
 
 	private:
 };

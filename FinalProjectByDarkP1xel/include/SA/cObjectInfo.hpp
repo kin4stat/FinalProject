@@ -37,8 +37,8 @@ class cObjectInfo final {
 	unsigned __int32 ui32GunBreakMode{0};
 	unsigned __int32 ui32SparksOnImpact{0};
 
-	explicit cObjectInfo::cObjectInfo(void) = delete;
-	cObjectInfo::~cObjectInfo(void) = delete;
+	explicit cObjectInfo(void) = delete;
+	~cObjectInfo(void) = delete;
 
 	private:
 };

@@ -18,9 +18,9 @@ class cHeli final {
 	public:
 	class cAutomobile Automobile {};
 
-	explicit cHeli::cHeli(void) = delete;
-	auto cHeli::fix(void) -> void;
-	cHeli::~cHeli(void) = delete;
+	explicit cHeli(void) = delete;
+	auto fix(void) -> void;
+	~cHeli(void) = delete;
 
 	private:
 };

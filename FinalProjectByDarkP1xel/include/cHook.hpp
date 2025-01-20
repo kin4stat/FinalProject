@@ -16,13 +16,13 @@
 
 class cHook final {
 	public:
-	explicit cHook::cHook(class cWinAPIFuncs *pWinAPIFuncs);
-	auto cHook::isJMP(const void *pJMPPos) const -> bool;
-	auto cHook::isCALL(const void *pJMPPos) const -> bool;
-	auto cHook::getHookAddress(const void *pJMPPos) const -> void *;
-	auto cHook::installJMPHook(void *pJMPPos, const void *pJMPTo, const unsigned __int32 ui32Size = 5, void **ppSavedBytes = nullptr, void **ppSavedJMPTo = nullptr) const -> bool;
-	auto cHook::removeJMPHook(void *pJMPPos, void *pSavedBytes, const unsigned __int32 ui32Size = 5) const -> bool;
-	cHook::~cHook(void);
+	explicit cHook(class cWinAPIFuncs *pWinAPIFuncs);
+	auto isJMP(const void *pJMPPos) const -> bool;
+	auto isCALL(const void *pJMPPos) const -> bool;
+	auto getHookAddress(const void *pJMPPos) const -> void *;
+	auto installJMPHook(void *pJMPPos, const void *pJMPTo, const unsigned __int32 ui32Size = 5, void **ppSavedBytes = nullptr, void **ppSavedJMPTo = nullptr) const -> bool;
+	auto removeJMPHook(void *pJMPPos, void *pSavedBytes, const unsigned __int32 ui32Size = 5) const -> bool;
+	~cHook(void);
 
 	private:
 	class cWinAPIFuncs *pWinAPIFuncs{nullptr};

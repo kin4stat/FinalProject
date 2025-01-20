@@ -14,11 +14,11 @@
 
 class cAudioEngine final {
 	public:
-	explicit cAudioEngine::cAudioEngine(void) = delete;
-	auto cAudioEngine::reset(void) -> void;
-	auto cAudioEngine::reportFrontendAudioEvent(const unsigned __int16 ui16EventID, const float fVolumeChange = 0, const float fSpeed = 1.0F) -> void;
-	auto cAudioEngine::reportMissionAudioEvent(const unsigned __int16 ui16EventID, const class cVector3D *pPos = nullptr) -> void;
-	cAudioEngine::~cAudioEngine(void) = delete;
+	explicit cAudioEngine(void) = delete;
+	auto reset(void) -> void;
+	auto reportFrontendAudioEvent(const unsigned __int16 ui16EventID, const float fVolumeChange = 0, const float fSpeed = 1.0F) -> void;
+	auto reportMissionAudioEvent(const unsigned __int16 ui16EventID, const class cVector3D *pPos = nullptr) -> void;
+	~cAudioEngine(void) = delete;
 
 	private:
 };

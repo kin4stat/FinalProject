@@ -14,29 +14,29 @@
 
 class cStreaming final {
 	public:
-	explicit cStreaming::cStreaming(void) = delete;
-	cStreaming::~cStreaming(void) = delete;
+	explicit cStreaming(void) = delete;
+	~cStreaming(void) = delete;
 
-	static auto cStreaming::init(void) -> void;
-	static auto cStreaming::reInit(void) -> unsigned __int32;
-	static auto cStreaming::loadScene(const class cVector3D *pPos) -> void;
-	static auto cStreaming::loadSceneCollision(const class cVector3D *pPos) -> void;
-	static auto cStreaming::requestModel(const unsigned __int32 ui32ModelID, const __int32 i32StreamingFlags) -> void;
-	static auto cStreaming::requestAllModels(void) -> void;
-	static auto cStreaming::removeModel(const unsigned __int32 ui32ModelID) -> void;
-	static auto cStreaming::loadAllRequestedModels(const bool bOnlyPriorityRequests) -> void;
-	static auto cStreaming::setModelIsDeletable(const unsigned __int32 ui32ModelID) -> void;
-	static auto cStreaming::getMemoryAvailable(void) -> unsigned __int32;
-	static auto cStreaming::getMemoryUsed(void) -> unsigned __int32;
-	static auto cStreaming::deleteAllRwObjects(void) -> void;
-	static auto cStreaming::deleteLeastUsedEntityRwObject(const bool bNotOnScreen, const unsigned __int32 ui32StreamingFlags = 0) -> bool;
-	static auto cStreaming::removeAllUnusedModels(void) -> void;
-	static auto cStreaming::makeSpaceFor(const unsigned __int32 ui32MemoryToCleanInBytes) -> void;
-	static auto cStreaming::removeCurrentZonesModels(void) -> void;
-	static auto cStreaming::removeBigBuildings(void) -> void;
-	static auto cStreaming::removeLeastUsedModel(const unsigned __int32 ui32StreamingFlags = 0) -> bool;
-	static auto cStreaming::removeBuildingsNotInArea(const unsigned __int32 ui32Area = 0) -> void;
-	static auto cStreaming::shutdown(void) -> void;
+	static auto init(void) -> void;
+	static auto reInit(void) -> unsigned __int32;
+	static auto loadScene(const class cVector3D *pPos) -> void;
+	static auto loadSceneCollision(const class cVector3D *pPos) -> void;
+	static auto requestModel(const unsigned __int32 ui32ModelID, const __int32 i32StreamingFlags) -> void;
+	static auto requestAllModels(void) -> void;
+	static auto removeModel(const unsigned __int32 ui32ModelID) -> void;
+	static auto loadAllRequestedModels(const bool bOnlyPriorityRequests) -> void;
+	static auto setModelIsDeletable(const unsigned __int32 ui32ModelID) -> void;
+	static auto getMemoryAvailable(void) -> unsigned __int32;
+	static auto getMemoryUsed(void) -> unsigned __int32;
+	static auto deleteAllRwObjects(void) -> void;
+	static auto deleteLeastUsedEntityRwObject(const bool bNotOnScreen, const unsigned __int32 ui32StreamingFlags = 0) -> bool;
+	static auto removeAllUnusedModels(void) -> void;
+	static auto makeSpaceFor(const unsigned __int32 ui32MemoryToCleanInBytes) -> void;
+	static auto removeCurrentZonesModels(void) -> void;
+	static auto removeBigBuildings(void) -> void;
+	static auto removeLeastUsedModel(const unsigned __int32 ui32StreamingFlags = 0) -> bool;
+	static auto removeBuildingsNotInArea(const unsigned __int32 ui32Area = 0) -> void;
+	static auto shutdown(void) -> void;
 
 	private:
 };

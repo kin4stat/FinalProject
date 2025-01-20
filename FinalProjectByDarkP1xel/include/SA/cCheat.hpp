@@ -14,11 +14,11 @@
 
 class cCheat final {
 	public:
-	explicit cCheat::cCheat(void) = delete;
-	cCheat::~cCheat(void) = delete;
+	explicit cCheat(void) = delete;
+	~cCheat(void) = delete;
 
-	static auto cCheat::suicide(void) -> void;
-	static auto cCheat::giveJetPack(void) -> void;
+	static auto suicide(void) -> void;
+	static auto giveJetPack(void) -> void;
 
 	private:
 };

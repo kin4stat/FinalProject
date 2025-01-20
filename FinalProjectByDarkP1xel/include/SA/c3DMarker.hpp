@@ -40,8 +40,8 @@ class c3DMarker final {
 	class cVector3D vecLastPosition {};
 	__int32 i32OnScreenTestTime{0};
 
-	explicit c3DMarker::c3DMarker(void) = delete;
-	c3DMarker::~c3DMarker(void) = delete;
+	explicit c3DMarker(void) = delete;
+	~c3DMarker(void) = delete;
 
 	private:
 };

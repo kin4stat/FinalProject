@@ -23,8 +23,8 @@ class cForbiddenArea final {
 	unsigned __int8 ui8Type{0};
 	__int8 i8Pad1A[2];
 
-	explicit cForbiddenArea::cForbiddenArea(void) = default;
-	cForbiddenArea::~cForbiddenArea(void) = default;
+	explicit cForbiddenArea(void) = default;
+	~cForbiddenArea(void) = default;
 
 	private:
 };

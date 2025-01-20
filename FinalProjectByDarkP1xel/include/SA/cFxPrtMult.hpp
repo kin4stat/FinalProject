@@ -21,8 +21,8 @@ class cFxPrtMult final {
 	float fUnk{0};
 	float fLife{0};
 
-	explicit cFxPrtMult::cFxPrtMult(void) = default;
-	cFxPrtMult::~cFxPrtMult(void) = default;
+	explicit cFxPrtMult(void) = default;
+	~cFxPrtMult(void) = default;
 
 	private:
 };
